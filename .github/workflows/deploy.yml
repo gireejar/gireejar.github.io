@@ -1,0 +1,73 @@
+# Builds the Franklin site in sites/franklin and publishes it to GitHub Pages
+# (https://gireejaranade.github.io) on every push to `main`.
+#
+# One-time setup on GitHub: Settings -> Pages -> Build and deployment ->
+# Source: "GitHub Actions".
+name: Build and deploy site
+
+on:
+  push:
+    branches: [main]
+  # Allows re-running the deployment by hand from the Actions tab.
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Only one deployment at a time; a newer push supersedes a queued one.
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      # Regenerate the Franklin pages from data/*.yaml so that editing the
+      # data files and pushing is enough to update the site.
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Generate pages from data/
+        run: |
+          pip install pyyaml
+          python tools/build_sites.py
+
+      - name: Set up Julia
+        uses: julia-actions/setup-julia@v2
+        with:
+          version: "1"
+
+      - name: Cache Julia packages
+        uses: julia-actions/cache@v2
+
+      - name: Build Franklin site
+        working-directory: sites/franklin
+        run: |
+          julia -e '
+            using Pkg; Pkg.activate("."); Pkg.instantiate();
+            using Franklin;
+            optimize(minify=false, prerender=false)'
+
+      - name: Upload site artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: sites/franklin/__site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

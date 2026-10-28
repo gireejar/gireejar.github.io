@@ -1,0 +1,164 @@
+body {
+    min-height: 100%; /*2000px;*/
+  padding-top: 70px;
+  font-family: avenir, 'avenirnext', helvetica, arial, sans-serif;
+  font-size:17px;
+}
+
+.navbar-default, .navbar-fixed-top {
+	background: white;
+	border-bottom: none;
+	padding-top:10pt;
+	padding-bottom:none;
+}
+
+.navbar-header .navbar-brand {
+	font-size: 30pt;
+    color:#7300e6;/*#000000;*/
+}
+
+.navbar-header .navbar-subbrand{
+	font-size: 15pt;
+    color: #993366;/*#9B9B9B;*/
+	float:none;
+}
+
+/* The separator lines used between container sections 
+The 0px box-shadow gives you a 0.5px line which you can't get with a border */
+hr.section-separator{
+	min-width: 100%;
+	margin-top:15px !important;
+	margin-bottom:0.5px !important;
+    box-shadow: 0px 0px 0px #7300e6;/*#979797;*/
+}
+
+/* style for active menu item on navbar */
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{
+	background-color:white;
+    color:#7300e6;/*#974D56;*/
+	padding: 15px 15px 3px 15px;
+	box-shadow: 0px 2px 0px;
+	-webkit-transition:200ms ease;
+    -moz-transition:200ms ease;
+    -o-transition:200ms ease;
+    transition:200ms ease;
+}
+
+.face{
+	padding:1%;
+    width: 100%;
+    min-width: 50pt;
+    max-width: 140pt;
+}
+
+.jumbotron{
+	background:white;
+	padding-top:80px;
+	padding-bottom:20px;
+}
+
+.jumbotron p{
+	font-size:17px;
+	margin-bottom:5px;
+    color:#000000;
+}
+
+.jumbotron a{
+    color: #7300e6
+}
+
+.jumbotron .infolink {
+    padding-left:10px;
+    color: #000000
+}
+
+.jumbotron .purplelink {
+    color: #7300e6
+}
+
+.jumbotron .description{
+    padding-top:20px;
+}
+
+
+#footer{
+    padding-top:40px;
+}
+
+
+.icon{
+	width:30px;
+}
+
+a {
+    color:#666666;/*#9B9B9B;*/
+	font-weight:"medium";
+}
+ a:hover, a:focus{
+     /*color:#974D56;*/
+     color:#7300e6;/*#993366;*/
+ 	text-decoration: none;
+ 	font-weight:medium;
+ }
+
+
+/* Styles for the individual rows and items */
+
+.text {
+        color:#7300e6;/*#9B9B9B;*/
+        font-weight:"medium";
+}
+
+.paper-item {
+     padding-top:8px;
+     padding-bottom:8px;
+     border-radius: 1pt;
+/*     border: 2px solid white;*/
+     border-bottom: 1px dashed #bbbbbb;
+
+/*	padding-top:15px;
+	padding-bottom:5px;
+	border-radius: 4pt;
+	border: 1px solid white;*/
+}
+
+
+/* Alternate row coloring */
+.row .paper-item:nth-of-type(odd){
+/*    background-color:#e6e6ff;/*#e6ecff;/*rgba(194,132,114,0.05);8?*/*/
+    background-color:white;
+}
+.row .paper-item:nth-of-type(even){
+  background-color:white;
+}
+
+.paper-title{
+	font-family:'AvenirNext-Italic', avenir, helvetica, arial, sans-serif;
+}
+
+.paper-type{
+	/*font-family:'AvenirNext-Medium';*/
+}
+
+/* List heading eg: Control and Information Theory */
+.row>h4{
+    /*color: #9B9B9B;*/
+	margin-bottom:20px;
+	margin-top:20px;
+}
+
+@media only screen and (max-device-width: 480px) {
+    .row>h4{
+        margin-left:5%;
+    }
+}
+
+
+/* Section heading eg: Research, Teaching, Etc.; */
+h3 {
+	text-align:center;
+	margin-top:40px;
+	margin-bottom:20px;
+
+}
+

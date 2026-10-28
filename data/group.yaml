@@ -1,0 +1,83 @@
+# Research group. DRAFT (2026-10-28), built from:
+#   - the PhD student list you provided,
+#   - recent co-authors on Google Scholar (2023-2026),
+#   - the group list on the old website.
+# Add a `url:` to anyone to link their name. Entries under `to_confirm` are NOT shown on the site.
+
+intro: I've been very lucky to work with and learn from an amazing group of students.
+
+phd:
+  - {name: Manooshree Patel, coadvisor: Dor Abrahamson}
+  - {name: Nora Chenjun Guo, coadvisor: Björn Hartmann}
+  - {name: Ebonye Smith, coadvisor: Claire Tomlin}
+  - {name: Sultan Daniels, coadvisor: Anant Sahai}
+  - {name: Eric Xu}
+
+# Undergraduate co-authors on 2025-2026 group papers (LeanTutor / LeanSide / formally verified
+# co-reasoning with Manooshree and Nora; in-context recall with Sultan).
+undergrad:
+  - {name: Rayna Bhattacharyya, project: "Verified AI tutoring (LeanTutor, LeanSide)"}
+  - {name: Krishiv Kothari, project: "Formally verified co-reasoning (LeanSide)"}
+  - {name: Thomas Lu, project: "Verified AI tutoring (LeanTutor, LeanSide)"}
+  - {name: Arnav Mehta, project: "Verified AI tutoring (LeanTutor, LeanSide)"}
+  - {name: Niels Voss, project: "Verified AI tutoring (LeanTutor, LeanSide)"}
+  - {name: Dylan Davis, project: "Mechanisms of in-context recall"}
+  - {name: Dhruv Gautam, project: "Mechanisms of in-context recall"}
+  - {name: Wentinn Liao, project: "Mechanisms of in-context recall"}
+
+alumni:
+  # Graduate students
+  - {name: Vignesh Subramanian, url: "https://people.eecs.berkeley.edu/~vignesh.subramanian/", role: "PhD, UC Berkeley"}
+  - {name: Vasuki Narasimha Swamy, url: "https://people.eecs.berkeley.edu/~vasuki/", role: "PhD, UC Berkeley", note: "Now: Intel Research. Marconi Scholar"}
+  - {name: Moses Won, role: "MS, UC Berkeley"}
+  - {name: Ana Tudor, url: "https://www.linkedin.com/in/ana-tudor", role: "MS 2021, UC Berkeley"}
+  - {name: Gloria Tumushabe, url: "https://www.linkedin.com/in/gloria-tumushabe", role: "MS 2020, UC Berkeley", note: "Now: Salesforce"}
+  # Undergraduates
+  - {name: Christopher Archer, role: "UC Berkeley"}
+  - {name: Bridget Agyare, url: "https://www.linkedin.com/in/bridgetagyare119", role: "Undergraduate 2023, UC Berkeley"}
+  - {name: Alicia Matsumoto, url: "https://www.linkedin.com/in/aliciamatsumoto", role: "Undergraduate 2022, UC Berkeley"}
+  - name: Rahul Arya
+    url: https://www.linkedin.com/in/rahul-arya
+    role: Undergraduate 2021, UC Berkeley
+    note: Honorable Mention, CRA Undergraduate Research Competition 2021
+    note_url: https://cra.org/about/awards/outstanding-undergraduate-researcher-award/
+  - {name: Neelesh Ramachandran, url: "https://www.neeleshramachandran.com/", role: "Undergraduate 2021, UC Berkeley"}
+  - {name: Sumer Kohli, url: "https://www.linkedin.com/in/sumerkohli", role: "Undergraduate 2021, UC Berkeley"}
+  - {name: Catherine Huang, url: "https://thecatherinehuang.github.io/", role: "Undergraduate 2021, UC Berkeley"}
+  - {name: "Helen Yang, Akhil Jalan, Simon Zhuang", role: "UC Berkeley Undergraduates"}
+  - {name: "Janny Zhang, Jemma Wu, Shaan Appel, Aarash Heydari, Vinay Koshy, Sahil Sancheti, Ryan Yang", role: "UC Berkeley Undergraduates"}
+  - {name: Ena Hariyoshi, url: "https://soihub.org/about/participants/alumni/ena-hariyoshi.html", role: "UC Berkeley Undergrad", note: "Now: Google, via MIT grad school. Center for Science of Information Scholar while at UC Berkeley"}
+  - {name: Leah Dickstein, url: "http://www.leahdickstein.com/", role: "UC Berkeley Undergrad", note: "Now: Facebook"}
+  - {name: Govind Ramnarayan, url: "https://www.linkedin.com/in/govind-ramnarayan-265a439b", role: "UC Berkeley Undergrad", note: "PhD at MIT, then Neural Magic"}
+  - {name: Sahaana Suri, url: "https://stanford.edu/~sahaana/", role: "UC Berkeley Undergrad", note: "PhD at Stanford. Finalist, CRA Undergraduate Research Competition (2015)"}
+  # Research interns
+  - {name: Alexander Spangher, role: "MSR Intern", note: "PhD at USC"}
+  - {name: Brian Axelrod, role: "MSR Intern", note: "PhD at Stanford"}
+
+# ---------------------------------------------------------------------------
+# NOT SHOWN ON THE SITE. Recent co-authors whose relationship to the group I couldn't
+# infer from publications alone. Move any of them into `undergrad`/`alumni` above.
+to_confirm:
+  # Co-authors on Narges Norouzi-led AI-for-education papers (2024-2026)
+  - Mihran Miroyan
+  - Rose Niousha
+  - Chancharik Mitra
+  - Rishi Jain
+  - Vedant Kumud
+  - Meenakshi Mittal
+  - Azalea Bailey
+  - Victoria Phelps
+  - Abigail O'Neill
+  - Gaurav Tyagi
+  - Kanav Mittal
+  - Hanna Schlegel
+  - Joaquín Jordán
+  - Xavier Yin
+  - Melissa Fabros
+  - Aneesh Durai
+  - Anirudh Chaudhary
+  - Naveen Nathan
+  # Other recent co-authors
+  - Peter Donovan      # LeanSide / co-reasoning (2026); student or staff?
+  - Olivia Hsu         # Inclusive study groups (SIGCSE 2023)
+  - Nithish Kumar      # Diversity in SBM dynamics (Allerton 2023), with Simina Brânzei

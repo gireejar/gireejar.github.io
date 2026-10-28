@@ -1,0 +1,105 @@
+# Teaching page (rendered by tools/build_sites.py -> sites/franklin/teaching.md).
+#
+# Two flat lists of courses:
+#   courses:       shown as a single list at the top of the page
+#   grad_student:  shown under "As a graduate student"
+#
+# Each course:
+#   code, title       e.g. "EECS 127/227A", "Optimization Models in Engineering"
+#   url               (optional) main course link
+#   role              (optional) one short line, e.g. "Co-designer and instructor"
+#   semesters         list of {term, url}; url optional. List oldest first.
+#   links             (optional) extra resources: list of {text, url}
+#   note              (optional) one short line shown in small print
+#
+# To add a semester: append `- {term: Fall 2027, url: https://...}` under that course's `semesters`.
+# Lines starting with `#` are ignored; unconfirmed semesters are kept commented out until verified.
+
+courses:
+  - id: cs182
+    code: CS C182/282A
+    title: Designing, Visualizing and Understanding Deep Neural Networks
+    role: Co-instructor with Anant Sahai
+    semesters: []
+      # TODO confirm: - {term: Fall 2025}
+      # TODO confirm: - {term: Fall 2026}
+
+  - id: eecs127
+    code: EECS 127/227A
+    title: Optimization Models in Engineering
+    role: Instructor
+    semesters:
+      - {term: Spring 2019}
+      - {term: Spring 2020, url: https://inst.eecs.berkeley.edu/~ee127/sp20/}
+      # TODO confirm: - {term: Fall 2022}
+      # TODO confirm: - {term: Spring 2023}
+      # TODO confirm: - {term: Fall 2023}
+      # TODO confirm: - {term: Spring 2024}
+      - {term: Spring 2026, url: https://eecs127.github.io/}
+    links:
+      - {text: Lecture recordings (Spring 2026), url: "https://www.youtube.com/playlist?list=PLnocShPlK-FvYcRd6us0okRTYKZtqe4B9"}
+      # TODO confirm these were your offerings before un-commenting:
+      # - {text: Lecture recordings (Spring 2024), url: "https://www.youtube.com/playlist?list=PLnocShPlK-FsQ-Sflqs4tbX-dKhYZSD3g"}
+      # - {text: Lecture recordings (Fall 2022), url: "https://www.youtube.com/playlist?list=PLnocShPlK-Fsj9puVGWJ1byL-WeKW1CMb"}
+      - {text: Course reader, url: "https://eecs127.github.io/assets/notes/eecs127_reader.pdf"}
+
+  - id: eecs16a
+    code: EECS 16A
+    title: Designing Information Devices and Systems I
+    role: Co-designer and instructor
+    semesters:
+      - {term: Spring 2015 (pilot), url: https://inst.eecs.berkeley.edu/~ee16a/sp15}
+      - {term: Fall 2018, url: https://inst.eecs.berkeley.edu/~ee16a/fa18}
+      - {term: Fall 2019, url: https://inst.eecs.berkeley.edu/~eecs16a/fa19}
+      - {term: Fall 2020, url: https://inst.eecs.berkeley.edu/~ee16a/fa20}
+    links:
+      - {text: Lecture videos (Spring 2015 pilot), url: "https://www.youtube.com/playlist?list=PLkFD6_40KJIzqJKYzqn5ALZLad3LiNyOK"}
+      - {text: Recorded lectures (Fall 2018 and Fall 2019), url: "https://www.youtube.com/channel/UCEXfTs0jS6D_0nwf1nAeF8A/search?query=16a"}
+      - {text: Webcasts (Fall 2019; see lecture schedule), url: "https://inst.eecs.berkeley.edu/~eecs16a/fa19/"}
+
+  - id: eecs16b
+    code: EECS 16B
+    title: Designing Information Devices and Systems II
+    role: Co-designer and instructor
+    semesters:
+      - {term: Fall 2015 (pilot), url: https://inst.eecs.berkeley.edu/~ee16b/fa15}
+      - {term: Spring 2021, url: https://inst.eecs.berkeley.edu/~eecs16b/sp21}
+
+  - id: data102
+    code: Data 102
+    title: Data, Inference and Decisions
+    role: Helped design and teach the pilot with Mike Jordan, Fernando Perez and others
+    semesters:
+      - {term: Fall 2019 (pilot), url: https://data102.org/fa19/}
+
+  - id: cs24
+    code: CS 24 / EE 98
+    title: Transitioning to EECS/CS/DS and related majors at UC Berkeley
+    url: https://docs.google.com/document/d/1gdniET-2-5cRidfjjUGTAnZ2B0K3CHtZ4npVGI2yFBI
+    role: New course created during the pandemic for incoming students
+    semesters:
+      - {term: Fall 2020}
+
+grad_student:
+  - id: cs70
+    code: CS 70
+    title: Discrete Mathematics and Probability Theory
+    role: Guest lecturer (approx. 500 students)
+    semesters:
+      - {term: Spring 2014, url: https://inst.eecs.berkeley.edu/~cs70/sp14}
+      - {term: Fall 2014}
+
+  - id: ee126
+    code: EE 126
+    title: Probability and Random Processes
+    role: Graduate Student Instructor
+    semesters:
+      - {term: Fall 2012, url: https://inst.eecs.berkeley.edu/~ee126/fa12}
+
+  - id: ee229a
+    code: EE 229A
+    title: Information Theory and Coding
+    url: https://inst.eecs.berkeley.edu/~ee229/archives.html
+    role: Guest lecturer
+    semesters:
+      - {term: Fall 2014}

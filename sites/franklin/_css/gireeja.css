@@ -1,0 +1,345 @@
+/* Site-specific overrides on top of the just-the-docs Franklin template.
+   Keeps the typography and purple/plum palette of the original website
+   (https://people.eecs.berkeley.edu/~gireeja/). */
+
+:root {
+  --purple: #7300e6;       /* primary accent from the original site */
+  --purple-light: #f3ebfd; /* light tint for backgrounds */
+  --plum: #993366;         /* secondary accent from the original site */
+  --font-main: avenir, 'avenirnext', helvetica, arial, sans-serif;
+  --sidebar-width: 195px;
+}
+
+/* Match the exact font family and 17px base size of people.eecs.berkeley.edu/~gireeja/ */
+html,
+body,
+.side-bar,
+.side-bar .header .title,
+.menu-list,
+.menu-list-item,
+.menu-list-link,
+.franklin-content,
+.franklin-content h1,
+.franklin-content h2,
+.franklin-content h3,
+.franklin-content h4,
+.franklin-content p,
+.franklin-content li,
+.page-foot {
+  font-family: var(--font-main);
+}
+
+html {
+  font-size: 17px;
+}
+
+@media (min-width: 31.25rem) {
+  html {
+    font-size: 17px;
+  }
+}
+
+body {
+  font-size: 17px;
+  color: #333333;
+}
+
+a,
+.franklin-content a,
+.show-menu {
+  color: var(--purple);
+  text-decoration: none;
+}
+
+a:hover,
+.franklin-content a:hover {
+  text-decoration: underline;
+}
+
+/* The template truncates every link to one line with an ellipsis;
+   let long links (paper titles, bio links) wrap normally. */
+.franklin-content a {
+  white-space: normal;
+  overflow: visible;
+  text-overflow: clip;
+}
+
+/* Uniform 17px font size and readable rhythm across paragraphs and lists */
+.franklin-content p,
+.franklin-content ul,
+.franklin-content ol,
+.franklin-content li {
+  font-size: 1rem;
+  line-height: 1.45;
+}
+
+.franklin-content p {
+  margin: 0 0 1rem;
+}
+
+/* Heading scale: same font family, clean medium weight like the original site */
+.franklin-content h1,
+.franklin-content h2,
+.franklin-content h3,
+.franklin-content h4 {
+  color: var(--purple);
+  font-weight: 500;
+}
+
+.franklin-content h1 {
+  font-size: 28px;
+  line-height: 1.2;
+}
+
+.franklin-content h2 {
+  font-size: 22px;
+  line-height: 1.3;
+  margin: 2rem 0 0.75rem;
+  padding-bottom: 0.3rem;
+  border-bottom: 1px solid #eeebee;
+}
+
+.franklin-content h3 {
+  font-size: 18px;
+  margin: 1.4rem 0 0.4rem;
+}
+
+.franklin-content h3 a {
+  color: var(--purple);
+}
+
+/* Narrow left sidebar and centered main content column */
+@media (min-width: 50rem) {
+  .side-bar {
+    width: var(--sidebar-width);
+    min-width: var(--sidebar-width);
+    align-items: flex-start;
+  }
+
+  .side-bar .header,
+  .side-bar .menu,
+  .side-bar .footer {
+    width: 100%;
+    box-sizing: border-box;
+    padding-left: 1.35rem;
+    padding-right: 1rem;
+  }
+
+  .side-bar .header .title {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .side-bar .menu {
+    padding-top: 2rem;
+  }
+
+  .main-content-wrap {
+    left: var(--sidebar-width);
+    width: calc(100% - var(--sidebar-width));
+  }
+
+  .main-content {
+    max-width: 840px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media (min-width: 66.5rem) {
+  .side-bar {
+    width: var(--sidebar-width);
+    min-width: var(--sidebar-width);
+  }
+
+  .main-content {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+/* Sidebar typography */
+.side-bar .header .title {
+  color: var(--purple);
+  font-size: 21px !important;
+  font-weight: 400;
+  white-space: nowrap;
+}
+
+.menu-list-item {
+  font-size: 17px !important;
+}
+
+.menu-list-link.active {
+  color: var(--purple);
+  font-weight: 500;
+}
+
+.menu-list-item.active::before,
+.menu-list-link.active::before {
+  color: var(--purple);
+}
+
+.side-bar .footer {
+  color: var(--plum);
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+.main-header {
+  font-size: 17px;
+}
+
+.main-header .sep {
+  color: #ccc;
+  margin: 0 0.5rem;
+}
+
+/* Profile block on the home page */
+.profile {
+  display: flex;
+  gap: 1.75rem;
+  align-items: center;
+  margin: 0.5rem 0 1.5rem;
+}
+
+/* Needs .franklin-content in the selector to beat the template's
+   `.franklin-content img { width: 70%; padding-left: 10% }`. */
+.franklin-content img.profile-photo {
+  width: 160px;
+  height: auto;
+  max-width: 40%;
+  padding-left: 0;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(115, 0, 230, 0.12);
+  flex-shrink: 0;
+}
+
+.profile-info { min-width: 0; }
+
+.franklin-content .profile-name {
+  margin: 0 0 0.35rem !important;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 1.15;
+}
+
+.franklin-content .profile-role {
+  font-size: 1rem;
+  margin: 0 0 0.5rem;
+}
+
+.franklin-content .profile-contact {
+  font-size: 1rem;
+  line-height: 1.55;
+  margin: 0;
+}
+
+@media (max-width: 600px) {
+  .profile { flex-direction: column; align-items: flex-start; gap: 1rem; }
+  .franklin-content img.profile-photo { width: 130px; max-width: 50%; }
+}
+
+/* Publication lists — same 17px font as the rest of the site */
+.franklin-content ul.pub-list {
+  list-style: none;
+  padding-left: 0;
+  margin-left: 0;
+}
+
+.franklin-content li.pub {
+  padding: 0.55rem 0 0.55rem 0.9rem;
+  margin: 0;
+  font-size: 1rem;
+  line-height: 1.45;
+  border-left: 3px solid var(--purple-light);
+  border-bottom: 1px dashed #bbbbbb;
+  transition: border-color 150ms ease, background-color 150ms ease;
+}
+
+.franklin-content li.pub:hover {
+  border-left-color: var(--purple);
+  background-color: #fbf8ff;
+}
+
+.pub-title {
+  font-family: 'AvenirNext-Italic', avenir, helvetica, arial, sans-serif;
+  font-style: italic;
+  font-size: 1rem;
+}
+
+.pub-authors {
+  color: #333333;
+  font-size: 1rem;
+}
+
+.pub-venue {
+  color: var(--plum);
+  font-size: 1rem;
+}
+
+.pub-note {
+  font-size: 0.9rem;
+  color: #666666;
+}
+
+/* Teaching page — course list (generated from data/teaching.yaml) */
+.course-title {
+  font-weight: 500;
+}
+
+.course-role {
+  color: #555555;
+}
+
+.course-terms {
+  color: var(--plum);
+}
+
+.course-links {
+  font-size: 0.95rem;
+}
+
+/* Updates (news) list on the home page and /updates/ —
+   generated from data/updates.yaml by tools/build_sites.py */
+.franklin-content ul.updates {
+  list-style: none;
+  padding-left: 0;
+  margin-left: 0;
+}
+
+.franklin-content ul.updates > li {
+  display: flex;
+  gap: 1rem;
+  padding: 0.4rem 0 0.4rem 0.9rem;
+  margin: 0;
+  font-size: 1rem;
+  line-height: 1.45;
+  border-left: 3px solid var(--purple-light);
+  transition: border-color 150ms ease, background-color 150ms ease;
+}
+
+.franklin-content ul.updates > li::before {
+  content: none;
+}
+
+.franklin-content ul.updates > li:hover {
+  border-left-color: var(--purple);
+  background-color: #fbf8ff;
+}
+
+.update-date {
+  flex: 0 0 6.75rem;
+  color: var(--plum);
+  white-space: nowrap;
+}
+
+.update-text {
+  flex: 1;
+  min-width: 0;
+}
+
+@media (max-width: 600px) {
+  .franklin-content ul.updates > li { flex-direction: column; gap: 0.1rem; }
+  .update-date { flex-basis: auto; }
+}

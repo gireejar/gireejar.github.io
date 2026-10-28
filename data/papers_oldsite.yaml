@@ -1,0 +1,477 @@
+# Publications extracted from the original website.
+# Edit this file to add/remove papers; both site generators read from it.
+- title: Inclusive Study Group Formation at Scale
+  authors: Sumer Kohli*, Neelesh Ramachandran*, Ana Tudor*, Gloria Tumushabe*, Olivia Hsu, Gireeja Ranade
+  venue: Preprint
+  year: null
+  url: https://people.eecs.berkeley.edu/~gireeja/Papers/inclusivestudygroups.pdf
+  note: '*These authors contributed equally to the work'
+  topics: []
+  selected: true
+  id: inclusive-study-group-formation-at
+- title: Stabilizability of Vector Systems with Uniform Actuation Unpredictability
+  authors: Rahul Arya, Chih-Yuan Chiu, Gireeja Ranade
+  venue: IEEE International Symposium on Information Theory 2021
+  year: 2021
+  url: https://arxiv.org/pdf/2105.04652.pdf
+  note: ''
+  topics: []
+  selected: true
+  id: stabilizability-vector-systems-uniform-actuation-2021
+- title: Exact minimum number of bits to stabilize a linear system
+  authors: Victoria Kostina, Yuval Peres, Gireeja Ranade and Mark Sellke
+  venue: IEEE Transactions on Automatic Control 2021
+  year: 2021
+  url: https://arxiv.org/pdf/1807.07686.pdf
+  note: ''
+  topics: []
+  selected: true
+  id: exact-minimum-number-bits-stabilize-2021
+- title: Characterizing Search-Engine Traffic to Internet Research Agency Web Properties
+  authors: Alexander Spangher, Gireeja Ranade, Adam Fourney, Besmira Nushi, Eric Horvitz
+  venue: ACM The Web Conference 2020
+  year: 2020
+  url: http://erichorvitz.com/Multisystem_disinformation.pdf
+  note: ''
+  topics:
+  - Misinformation
+  selected: true
+  id: characterizing-searchengine-traffic-internet-research-2020
+- title: When multiplicative noise stymies control
+  authors: Jian Ding, Yuval Peres, Gireeja Ranade and Alex Zhai
+  venue: The Annals of Applied Probability 2019
+  year: 2019
+  url: https://people.eecs.berkeley.edu/~gireeja/Papers/dprz19.pdf
+  note: ''
+  topics:
+  - Information and control theory
+  selected: true
+  id: when-multiplicative-noise-stymies-control-2019
+- title: Learning a Neural-Network Controller for a Multiplicative Observation Noise System
+  authors: Vignesh Subramanian, Moses Won, Gireeja Ranade
+  venue: IEEE International Symposium on Information Theory 2020
+  year: 2020
+  url: https://people.eecs.berkeley.edu/~vignesh.subramanian/files/isit_2020_full_version.pdf
+  note: ''
+  topics:
+  - Recent work
+  selected: false
+  id: learning-neuralnetwork-controller-multiplicative-observation-2020
+- title: Communication cost of consensus for nodes with limited memory
+  authors: Giulia Fanti, Nina Holden, Gireeja Ranade, Yuval Peres
+  venue: Proceedings of the National Academy of Sciences 2020
+  year: 2020
+  url: https://www.pnas.org/content/117/11/5624
+  note: ''
+  topics:
+  - Recent work
+  selected: false
+  id: communication-cost-consensus-nodes-limited-2020
+- title: Too many fairness metrics, is there a solution?
+  authors: Swati Gupta, Akhil Jalan, Gireeja Ranade, Helen Yang, Simon Zhuang
+  venue: Mechanism Design for Social Good Workshop 2020; Ethics of Data Science Conference, 2020
+  year: 2020
+  url: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3554829
+  note: ''
+  topics:
+  - Recent work
+  selected: false
+  id: too-many-fairness-metrics-solution-2020
+- title: Analysis of Strategy and Spread of Russia-sponsored Content in the US in 2017
+  authors: Alexander Spangher, Gireeja Ranade, Adam Fourney, Besmira Nushi, Eric Horvitz
+  venue: The Web Conference, 2020
+  year: 2020
+  url: https://arxiv.org/abs/1810.10033
+  note: ''
+  topics:
+  - Misinformation
+  selected: false
+  id: analysis-strategy-spread-russiasponsored-content-2020
+- title: Characterizing the Internet Research Agency's Social Media Operations During the 2016 U.S. Presidential
+    Election using Linguistic Analyses
+  authors: Ryan Boyd, Alexander Spangher, Adam Fourney, Besmira Nushi, Gireeja Ranade, James Pennebaker,
+    Eric Horvitz
+  venue: ''
+  year: null
+  url: https://psyarxiv.com/ajh2q/
+  note: ''
+  topics:
+  - Misinformation
+  selected: false
+  id: characterizing-internet-research-agencys-social
+- title: Geographic and Temporal Trends of Fake News Consumption during the 2016 US Presidential Election
+  authors: Adam Fourney*, Miklos Racz*, Gireeja Ranade*, Markus Mobius, Eric Horvitz
+  venue: ACM International Conference on Information and Knowledge Management (CIKM) 2017
+  year: 2017
+  url: https://people.eecs.berkeley.edu/~gireeja/Papers/CIKM2017_FakeNews_FRRMH.pdf
+  note: '*These authors contributed equally to the work'
+  topics:
+  - Misinformation
+  selected: false
+  id: geographic-temporal-trends-fake-news-2017
+- title: Control Capacity
+  authors: Gireeja Ranade and Anant Sahai
+  venue: IEEE Transactions on Information Theory, 2018
+  year: 2018
+  url: https://arxiv.org/abs/1701.04187
+  note: ''
+  topics:
+  - Information and control theory
+  selected: false
+  id: control-capacity-2018
+- title: 'On the Value of Spatiotemporal Information: Principles and Scenarios'
+  authors: Heba Aly, John Krumm, Gireeja Ranade and Eric Horvitz
+  venue: ACM SIGSPATIAL 2018 (Best-paper Runner-up)
+  year: 2018
+  url: http://erichorvitz.com/sigspatial_2018_exp_value_location_data.pdf
+  note: ''
+  topics:
+  - Information and control theory
+  selected: false
+  id: value-spatiotemporal-information-principles-scenarios-2018
+- title: Exact minimum number of bits to stabilize a linear system
+  authors: Victoria Kostina, Yuval Peres, Gireeja Ranade and Mark Sellke
+  venue: IEEE CDC 2018
+  year: 2018
+  url: https://arxiv.org/abs/1807.07686
+  note: ''
+  topics:
+  - Information and control theory
+  selected: false
+  id: exact-minimum-number-bits-stabilize-2018
+- title: Stabilizing a linear system using phone calls
+  authors: Mohammad Javad Khojasteh, Massimo Franceschetti, Gireeja Ranade
+  venue: IEEE CDC 2018
+  year: 2018
+  url: https://arxiv.org/abs/1804.00351
+  note: ''
+  topics:
+  - Information and control theory
+  selected: false
+  id: stabilizing-linear-system-using-phone-2018
+- title: Stabilizing a system with unbounded random gain using only a finite number of bits
+  authors: Victoria Kostina, Yuval Peres, Gireeja Ranade and Mark Sellke
+  venue: IEEE ISIT 2018
+  year: 2018
+  url: https://arxiv.org/abs/1805.05535
+  note: ''
+  topics:
+  - Information and control theory
+  selected: false
+  id: stabilizing-system-unbounded-random-gain-2018
+- title: Rate-limited control of systems with uncertain gain
+  authors: Victoria Kostina, Yuval Peres, Miklos Racz and Gireeja Ranade
+  venue: Allerton Conference on Communication, Control and Computing 2016
+  year: 2016
+  url: http://www.eecs.berkeley.edu/~gireeja/Papers/KPRR16.pdf
+  note: ''
+  topics:
+  - Information and control theory
+  selected: false
+  id: ratelimited-control-systems-uncertain-gain-2016
+- title: Control with actuation anticipation
+  authors: Ena Hariyoshi, Gireeja Ranade and Anant Sahai
+  venue: IEEE Conference on Decision and Control 2016
+  year: 2016
+  url: http://www.eecs.berkeley.edu/~gireeja/Papers/HRS16.pdf
+  note: ''
+  topics:
+  - Information and control theory
+  selected: false
+  id: control-actuation-anticipation-2016
+- title: 'A tiger by the tail: when multiplicative noise stymies control'
+  authors: Jian Ding, Yuval Peres and Gireeja Ranade,
+  venue: IEEE International Symposium on Information Theory (ISIT) 2016
+  year: 2016
+  url: http://www.eecs.berkeley.edu/~gireeja/Papers/isit2016tiger.pdf
+  note: ''
+  topics:
+  - Information and control theory
+  selected: false
+  id: tiger-by-tail-when-multiplicative-2016
+- title: Control with side information
+  authors: Gireeja Ranade and Anant Sahai
+  venue: IEEE Indian Control Conference 2016
+  year: 2016
+  url: http://www.eecs.berkeley.edu/~gireeja/Papers/icc2016.pdf
+  note: ''
+  topics:
+  - Information and control theory
+  selected: false
+  id: control-side-information-2016
+- title: Vector control systems with unpredictable actuation
+  authors: Ena Hariyoshi, Gireeja Ranade and Anant Sahai
+  venue: Allerton Conference on Communication, Control and Computing 2015
+  year: 2015
+  url: http://www.eecs.berkeley.edu/~gireeja/Papers/allerton2015.pdf
+  note: ''
+  topics:
+  - Information and control theory
+  selected: false
+  id: vector-control-systems-unpredictable-actuation-2015
+- title: Control Capacity
+  authors: Gireeja Ranade and Anant Sahai
+  venue: IEEE International Symposium on Information Theory (ISIT) 2015
+  year: 2015
+  url: http://www.eecs.berkeley.edu/~gireeja/Papers/isit2015cameraready.pdf
+  note: ''
+  topics:
+  - Information and control theory
+  selected: false
+  id: control-capacity-2015
+- title: Side-information in control and estimation
+  authors: Govind Ramnarayan, Gireeja Ranade and Anant Sahai
+  venue: IEEE International Symposium on Information Theory (ISIT) 2014
+  year: 2014
+  url: http://www.eecs.berkeley.edu/~gireeja/Papers/isit2014_cameraready.pdf
+  note: ''
+  topics:
+  - Information and control theory
+  selected: false
+  id: sideinformation-control-estimation-2014
+- title: Non-coherence in estimation and control
+  authors: Gireeja Ranade and Anant Sahai
+  venue: Allerton Conference on Communication, Control and Computing 2013
+  year: 2013
+  url: http://www.eecs.berkeley.edu/~gireeja/Papers/allerton13cameraready.pdf
+  note: ''
+  topics:
+  - Information and control theory
+  selected: false
+  id: noncoherence-estimation-control-2013
+- title: Comments on unknown channels
+  authors: Kristen Woyach, Kate Harrison, Gireeja Ranade and Anant Sahai
+  venue: Information Theory Workshop (ITW) 2012
+  year: 2012
+  url: http://www.eecs.berkeley.edu/~gireeja/Papers/itw2012_final.pdf
+  note: ''
+  topics:
+  - Information and control theory
+  selected: false
+  id: comments-unknown-channels-2012
+- title: Carry free models and beyond
+  authors: Se Yong Park, Gireeja Ranade and Anant Sahai
+  venue: IEEE International Symposium on Information Theory (ISIT) 2012
+  year: 2012
+  url: http://www.eecs.berkeley.edu/~gireeja/Papers/carryfree.pdf
+  note: ''
+  topics:
+  - Information and control theory
+  selected: false
+  id: carry-free-models-beyond-2012
+- title: Implicit communication in multiple access settings
+  authors: Gireeja Ranade and Anant Sahai
+  venue: IEEE International Symposium on Information Theory (ISIT) 2011
+  year: 2011
+  url: http://www.eecs.berkeley.edu/~gireeja/Papers/macwh_isit2011_website.pdf
+  note: ''
+  topics:
+  - Information and control theory
+  selected: false
+  id: implicit-communication-multiple-access-settings-2011
+- title: Wireless Channel Dynamics and Robustness for Ultra-Reliable Low-Latency Communications
+  authors: Vasuki Narasimha Swamy, Paul Rigge, Gireeja Ranade, Borivoje Nikolic, Anant Sahai
+  venue: IEEE JSAC Special Issue on Ultra-Reliable Low-Latency Communications in Wireless Networks
+  year: null
+  url: https://arxiv.org/abs/1806.08777
+  note: ''
+  topics:
+  - Wireless control
+  selected: false
+  id: wireless-channel-dynamics-robustness-ultrareliable
+- title: Finite block length coding for low-latency high-reliability wireless communication
+  authors: Leah Dickstein, Vasuki Narasimha Swamy, Gireeja Ranade, and Anant Sahai
+  venue: Allerton Conference on Communication, Control and Computing 2016
+  year: 2016
+  url: http://www.eecs.berkeley.edu/~gireeja/Papers/DNRS16.pdf
+  note: ''
+  topics:
+  - Wireless control
+  selected: false
+  id: finite-block-length-coding-lowlatency-2016
+- title: Robustness of cooperative communication schemes to channel models
+  authors: Vasuki Narasimha Swamy, Gireeja Ranade, and Anant Sahai
+  venue: IEEE International Symposium on Information Theory (ISIT) 2016
+  year: 2016
+  url: http://www.eecs.berkeley.edu/~gireeja/Papers/isit2016robust.pdf
+  note: ''
+  topics:
+  - Wireless control
+  selected: false
+  id: robustness-cooperative-communication-schemes-channel-2016
+- title: Network coding for low-latency high-reliability wireless control
+  authors: Vasuki Narasimha Swamy, Paul Rigge, Matt Weiner, Gireeja Ranade, Anant Sahai, Bora Nikolic
+  venue: 'IEEE Wireless Communications and Networking Conference (WCNC) Workshop on the Tactile Internet
+    : Enabling Technologies and Applications, 2016'
+  year: 2016
+  url: http://www.eecs.berkeley.edu/~gireeja/Papers/wcnc2016.pdf
+  note: ''
+  topics:
+  - Wireless control
+  selected: false
+  id: network-coding-lowlatency-highreliability-wireless-2016
+- title: Cooperative communication for low-latency high-reliability wireless control
+  authors: Vasuki Narasimha Swamy, Sahaana Suri, Paul Rigge, Matt Weiner, Gireeja Ranade, Anant Sahai,
+    Bora Nikolic
+  venue: IEEE International Conference on Communications (ICC) 2015
+  year: 2015
+  url: http://www.eecs.berkeley.edu/~gireeja/Papers/CoW-ICC.pdf
+  note: ''
+  topics:
+  - Wireless control
+  selected: false
+  id: cooperative-communication-lowlatency-highreliability-wireless-2015
+- title: Real-time Cooperative Communication for Control over Wireless
+  authors: Vasuki Narasimha Swamy, Sahaana Suri, Paul Rigge, Matt Weiner, Gireeja Ranade, Anant Sahai,
+    Bora Nikolic
+  venue: IEEE Transactions on Wireless Communications, 2016
+  year: 2016
+  url: http://ieeexplore.ieee.org/document/8016679/?reload=true
+  note: ''
+  topics:
+  - Wireless control
+  selected: false
+  id: realtime-cooperative-communication-control-over-2016
+- title: Verifying Controllers Against Adversarial Examples with Bayesian Optimization
+  authors: Shromona Ghosh, Felix Berkenkamp, Gireeja Ranade, Shaz Qadeer, Ashish Kapoor
+  venue: ICRA 2018
+  year: 2018
+  url: https://arxiv.org/abs/1802.08678
+  note: ''
+  topics:
+  - Safety and control
+  selected: false
+  id: verifying-controllers-against-adversarial-examples-2018
+- title: Data-driven Planning via Imitation Learning
+  authors: Sanjiban Choudhury, Mohak Bhardwaj, Sankalp Arora, Ashish Kapoor, Gireeja Ranade, Sebastian
+    Scherer, Debadeepta Dey
+  venue: International Journal of Robotics Research 2018
+  year: 2018
+  url: https://arxiv.org/abs/1711.06391
+  note: ''
+  topics:
+  - Safety and control
+  selected: false
+  id: datadriven-planning-via-imitation-learning-2018
+- title: Adaptive Information Gathering via Imitation Learning
+  authors: Sanjiban Choudhury, Ashish Kapoor, Gireeja Ranade, Sebastian Scherer, Debadeepta Dey
+  venue: RSS 2017
+  year: 2017
+  url: https://arxiv.org/abs/1705.07834
+  note: ''
+  topics:
+  - Safety and control
+  selected: false
+  id: adaptive-information-gathering-via-imitation-2017
+- title: Learning to gather information via Imitation
+  authors: Sanjiban Chowdhury, Ashish Kapoor, Gireeja Ranade and Debadeepta Dey
+  venue: ICRA 2016
+  year: 2016
+  url: https://arxiv.org/abs/1611.04180
+  note: ''
+  topics:
+  - Safety and control
+  selected: false
+  id: learning-gather-information-via-imitation-2016
+- title: No-regret replanning under uncertainty
+  authors: Wen Sun, Niteesh Sood, Debadeepta Dey, Gireeja Ranade, Siddharth Prakash and Ashish Kapoor
+  venue: ICRA 2016
+  year: 2016
+  url: https://128.84.21.199/abs/1609.05162
+  note: ''
+  topics:
+  - Safety and control
+  selected: false
+  id: noregret-replanning-under-uncertainty-2016
+- title: To crowdsource or not to crowdsource?
+  authors: Gireeja Ranade and Lav R. Varshney
+  venue: 4th Human Computation Workshop, AAAI 2012
+  year: 2012
+  url: http://www.eecs.berkeley.edu/~gireeja/Papers/hcomp2012_final.pdf
+  note: ''
+  topics:
+  - Crowdsourcing
+  selected: false
+  id: crowdsource-or-not-crowdsource-2012
+- title: Worker information in crowdsourcing contest design
+  authors: Gireeja Ranade, and Lav R. Varshney
+  venue: Book Chapter, submitted 2015.
+  year: 2015
+  url: ''
+  note: ''
+  topics:
+  - Crowdsourcing
+  selected: false
+  id: worker-information-crowdsourcing-contest-design-2015
+- title: 'ProjecToR: Agile Reconfigurable Datacenter Interconnect'
+  authors: Monia Ghobadi, Ratul Mahajan, Amar Phanishayee, H. Rastegarfar, P. Blanche, M. Glick, D. Kilper,
+    Janardhan Kulkarni, Gireeja Ranade, and Nikhil Devanur
+  venue: ACM SIGCOMM 2016
+  year: 2016
+  url: http://www.eecs.berkeley.edu/~gireeja/Papers/projector.pdf
+  note: ''
+  topics:
+  - Datacenter networks
+  selected: false
+  id: projector-agile-reconfigurable-datacenter-interconnect-2016
+- title: LFP beta power predicts cursor stationarity in BMI Task
+  authors: Gireeja Ranade, Karunesh Ganguly, and Jose Carmena
+  venue: Proceedings of the 4th International IEEE EMBS Conference on Neural Engineering, 2009
+  year: 2009
+  url: http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=5109338&tag=1
+  note: ''
+  topics:
+  - Neuroscience
+  selected: false
+  id: lfp-beta-power-predicts-cursor-2009
+- title: Cortical representation of ipsilateral arm movements in monkey and man
+  authors: Karunesh Ganguly, Lavi Secundo, Gireeja Ranade, Amy Orsborn, Edward Chang, Dragan Dimitrov,
+    Jonathan Wallis, Nicholas Barbaro, Robert Knight and Jose Carmena
+  venue: Journal of Neuroscience, 2009
+  year: 2009
+  url: http://www.jneurosci.org/content/29/41/12948.short
+  note: ''
+  topics:
+  - Neuroscience
+  selected: false
+  id: cortical-representation-ipsilateral-arm-movements-2009
+- title: Model-based Estimation of Cardiac Output and Total Peripheral Resistance
+  authors: Tushar A. Parlikar, Thomas Heldt, Gireeja Ranade and George Verghese
+  venue: Computers in Cardiology, October 2007
+  year: 2007
+  url: ''
+  note: ''
+  topics:
+  - Cardiovascular modeling
+  selected: false
+  id: modelbased-estimation-cardiac-output-total-2007
+- title: Model-based Estimation of Cardiac Output and Systemic Vascular Resistance
+  authors: Tushar A. Parlikar, Thomas Heldt, Gireeja Ranade, and George Verghese
+  venue: U.S. Patent 2008/027812 A1, Nov. 20, 2008
+  year: 2008
+  url: ''
+  note: ''
+  topics:
+  - Cardiovascular modeling
+  selected: false
+  id: modelbased-estimation-cardiac-output-systemic-2008
+- title: 'Active systems with uncertain parameters: an information-theoretic perspective'
+  authors: Gireeja Ranade
+  venue: PhD Dissertation, UC Berkeley, 2014
+  year: 2014
+  url: http://www.eecs.berkeley.edu/~gireeja/thesis/gireejaranadethesis.pdf
+  note: ''
+  topics:
+  - Theses
+  selected: false
+  id: active-systems-uncertain-parameters-informationtheoretic-2014
+- title: 'Information content in the local field potential: implications for brain-machine interfaces'
+  authors: Gireeja Ranade
+  venue: Masters Thesis, UC Berkeley, 2009
+  year: 2009
+  url: http://www.eecs.berkeley.edu/Pubs/TechRpts/2009/EECS-2009-121.html
+  note: ''
+  topics:
+  - Theses
+  selected: false
+  id: information-content-local-field-potential-2009

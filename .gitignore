@@ -1,0 +1,16 @@
+# macOS
+.DS_Store
+
+# Franklin build output and local Julia/Node artifacts
+sites/franklin/__site/
+sites/franklin/Manifest.toml
+node_modules/
+package-lock.json
+
+# Hugo build output
+sites/hugo/public/
+sites/hugo/resources/
+sites/hugo/.hugo_build.lock
+
+# Python
+__pycache__/

@@ -1,0 +1,127 @@
+baseURL: "https://people.eecs.berkeley.edu/~gireeja/"
+title: Gireeja Ranade
+theme: PaperMod
+
+enableInlineShortcodes: true
+enableRobotsTXT: true
+pagination:
+  pagerSize: 200
+
+taxonomies:
+    tag: tags
+
+menu:
+    main:
+        - name: Papers
+          url: papers/
+          weight: 1
+        - name: Teaching
+          url: teaching/
+          weight: 2
+        - name: Group
+          url: group/
+          weight: 3
+        - name: Talks
+          url: talks/
+          weight: 4
+        - name: Media
+          url: media/
+          weight: 5
+        - name: Outreach
+          url: outreach/
+          weight: 6
+        - name: Miscellaneous
+          url: miscellaneous/
+          weight: 7
+
+params:
+    description: "Gireeja Ranade is an Associate Teaching Professor in EECS at UC Berkeley. This website lists her papers, teaching, research group, talks and outreach."
+    author: Gireeja Ranade
+    DateFormat: "2006"
+    defaultTheme: light
+    hideFooter: false
+    disableThemeToggle: true
+    ShowShareButtons: false
+    ShowReadingTime: false
+    disableSpecial1stPost: true
+    disableAnchoredHeadings: true
+    ShowPostNavLinks: false
+    ShowBreadCrumbs: false
+    ShowCodeCopyButtons: true
+    ShowAllPagesInArchive: false
+    MainSections: [papers, teaching]
+    ShowToc: false
+    disableScrollToTop: true
+    TocOpen: true
+    ShowWordCount: false
+    UseHugoToc: true
+    comments: false
+    math: true
+    profileMode:
+          enabled: true
+          title: Gireeja Ranade
+          subtitle: >-
+            Associate Teaching Professor in <a href="https://eecs.berkeley.edu/">EECS</a> at
+            <a href="https://berkeley.edu/">UC Berkeley</a>.<br><br>
+            Gireeja Ranade is an Associate Teaching Professor in the Electrical Engineering and
+            Computer Science Department at UC Berkeley. Her research interests span theoretical
+            projects in machine learning and control, AI for Math, and societal impacts of AI and
+            education. She teaches upper-division and graduate level courses such as deep learning
+            and optimization, as well as introductory undergraduate courses. Before joining the
+            faculty at UC Berkeley, Prof. Ranade was a Researcher at Microsoft Research AI
+            in the Adaptive Systems and Interaction Group. She designed and taught the first offering
+            of the course sequence EECS 16A and EECS 16B, and received the 2017 UC Berkeley
+            Electrical Engineering Award for Outstanding Teaching and the 2020 UC Berkeley award for
+            Extraordinary Teaching in Extraordinary Times. Prof. Ranade received her PhD in EECS from UC Berkeley
+            and her undergraduate degree from MIT.
+          imageUrl: picture.png
+          imageWidth: 170
+          imageHeight: 200
+          buttons:
+            - name: Papers
+              url: papers/
+            - name: Selected papers
+              url: tags/selected/
+            - name: Teaching
+              url: teaching/
+            - name: Group
+              url: group/
+            - name: Talks
+              url: talks/
+            - name: Media
+              url: media/
+            - name: Outreach
+              url: outreach/
+
+    socialIcons:
+        - name: Email
+          url: mailto:ranade@eecs.berkeley.edu
+        - name: Location
+          url: location/
+        - name: Google Scholar
+          url: https://scholar.google.com/citations?user=XBjhKdoAAAAJ
+        - name: YouTube
+          url: https://www.youtube.com/channel/UCEXfTs0jS6D_0nwf1nAeF8A
+
+    assets:
+        disableScrollBarStyle: true
+        favicon: favicon.ico
+    cover:
+        hiddenInList: false
+        hiddenInSingle: true
+    label:
+      text: Gireeja Ranade
+      icon: favicon.ico
+      iconHeight: 18
+
+markup:
+    goldmark:
+        renderer:
+            unsafe: true
+    highlight:
+        guessSyntax: true
+        style: autumn
+    tableOfContents:
+        endLevel: 2
+        ordered: false
+        startLevel: 2

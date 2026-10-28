@@ -1,0 +1,214 @@
+@def title = "Papers"
+
+# Papers
+
+\toc
+
+I am thankful for the many wonderful collaborations that have led to the publications here. A more exhaustive list is at [Google Scholar](https://scholar.google.com/citations?user=XBjhKdoAAAAJ).
+
+## Selected publications and preprints
+
+~~~
+<ul class="pub-list">
+<li class="pub"><div class="pub-title"><a href="https://aclanthology.org/2026.emnlp-main.2488.pdf">ParaStudent: Closing the Sim2Real Gap in User Simulators for AI Tutor Evaluation</a></div><div class="pub-authors">Rose Niousha, Mihran Miroyan, Abigail O’Neill, Joseph E Gonzalez, <strong>Gireeja Ranade</strong>, John DeNero, Narges Norouzi</div><div class="pub-venue">Proceedings of the 2026 Conference on Empirical Methods in Natural Language Processing</div></li>
+<li class="pub"><div class="pub-title"><a href="https://aclanthology.org/2026.findings-emnlp.977.pdf">Formally Verified AI Co-Reasoning: An Education Case Study</a></div><div class="pub-authors">Arnav Mehta, Chenjun Guo, Thomas Lu, Niels Voss, Manooshree Patel, Rayna Bhattacharyya, Peter Donovan, <strong>Gireeja Ranade</strong></div><div class="pub-venue">Findings of the Association for Computational Linguistics: EMNLP 2026</div></li>
+<li class="pub"><div class="pub-title"><a href="https://ojs.aaai.org/index.php/AAAI/article/download/41514/45475">LeanTutor: Towards a Verified AI Mathematical Proof Tutor</a></div><div class="pub-authors">Manooshree Patel, Rayna Bhattacharyya, Thomas Lu, Arnav Mehta, Niels Voss, Narges Norouzi, <strong>Gireeja Ranade</strong></div><div class="pub-venue">Proceedings of the AAAI Conference on Artificial Intelligence 2026</div></li>
+<li class="pub"><div class="pub-title"><a href="https://arxiv.org/pdf/2507.01414">Decomposing Prediction Mechanisms for In-Context Recall</a></div><div class="pub-authors">Sultan Daniels, Dylan Davis, Dhruv Gautam, Wentinn Liao, <strong>Gireeja Ranade</strong>, Anant Sahai</div><div class="pub-venue">arXiv preprint arXiv:2507.01414 2025</div></li>
+<li class="pub"><div class="pub-title"><a href="https://people.eecs.berkeley.edu/~gireeja/Papers/inclusivestudygroups.pdf">Inclusive study group formation at scale</a></div><div class="pub-authors">Sumer Kohli*, Neelesh Ramachandran*, Ana Tudor*, Gloria Tumushabe*, Olivia Hsu, <strong>Gireeja Ranade</strong></div><div class="pub-venue">Proceedings of the 54th ACM Technical Symposium on Computer Science Education V. 1 2023</div><div class="pub-note">*These authors contributed equally to the work</div></li>
+<li class="pub"><div class="pub-title"><a href="https://arxiv.org/pdf/1807.07686.pdf">Exact minimum number of bits to stabilize a linear system</a></div><div class="pub-authors">Victoria Kostina, Yuval Peres, <strong>Gireeja Ranade</strong>, Mark Sellke</div><div class="pub-venue">IEEE Transactions on Automatic Control 2021</div></li>
+<li class="pub"><div class="pub-title"><a href="https://www.pnas.org/content/117/11/5624">Communication cost of consensus for nodes with limited memory</a></div><div class="pub-authors">Giulia Fanti, Nina Holden, Yuval Peres, <strong>Gireeja Ranade</strong></div><div class="pub-venue">Proceedings of the National Academy of Sciences 2020</div></li>
+<li class="pub"><div class="pub-title"><a href="https://people.eecs.berkeley.edu/~gireeja/Papers/dprz19.pdf">When multiplicative noise stymies control</a></div><div class="pub-authors">Jian Ding, Yuval Peres, <strong>Gireeja Ranade</strong>, Alex Zhai</div><div class="pub-venue">The Annals of Applied Probability 2019</div></li>
+<li class="pub"><div class="pub-title"><a href="https://arxiv.org/abs/1701.04187">Control capacity</a></div><div class="pub-authors"><strong>Gireeja Ranade</strong>, Anant Sahai</div><div class="pub-venue">IEEE Transactions on Information Theory 2018</div></li>
+</ul>
+~~~
+
+## AI for education and mathematical reasoning
+
+~~~
+<ul class="pub-list">
+<li class="pub"><div class="pub-title"><a href="https://aclanthology.org/2026.emnlp-main.2488.pdf">ParaStudent: Closing the Sim2Real Gap in User Simulators for AI Tutor Evaluation</a></div><div class="pub-authors">Rose Niousha, Mihran Miroyan, Abigail O’Neill, Joseph E Gonzalez, <strong>Gireeja Ranade</strong>, John DeNero, Narges Norouzi</div><div class="pub-venue">Proceedings of the 2026 Conference on Empirical Methods in Natural Language Processing</div></li>
+<li class="pub"><div class="pub-title"><a href="https://aclanthology.org/2026.findings-emnlp.977.pdf">Formally Verified AI Co-Reasoning: An Education Case Study</a></div><div class="pub-authors">Arnav Mehta, Chenjun Guo, Thomas Lu, Niels Voss, Manooshree Patel, Rayna Bhattacharyya, Peter Donovan, <strong>Gireeja Ranade</strong></div><div class="pub-venue">Findings of the Association for Computational Linguistics: EMNLP 2026</div></li>
+<li class="pub"><div class="pub-title"><a href="https://arxiv.org/pdf/2610.00760">LeanSide: A Formally Verified Co-Reasoning System for Natural-language Proofs</a></div><div class="pub-authors">Chenjun Guo, Manooshree Patel, Arnav Mehta, Krishiv Kothari, Thomas Lu, Niels Voss, Rayna Bhattacharyya, Peter Donovan, Bjoern Hartmann, <strong>Gireeja Ranade</strong></div><div class="pub-venue">arXiv preprint arXiv:2610.00760 2026</div></li>
+<li class="pub"><div class="pub-title"><a href="https://ojs.aaai.org/index.php/AAAI/article/download/41514/45475">LeanTutor: Towards a Verified AI Mathematical Proof Tutor</a></div><div class="pub-authors">Manooshree Patel, Rayna Bhattacharyya, Thomas Lu, Arnav Mehta, Niels Voss, Narges Norouzi, <strong>Gireeja Ranade</strong></div><div class="pub-venue">Proceedings of the AAAI Conference on Artificial Intelligence 2026</div></li>
+<li class="pub"><div class="pub-title"><a href="https://ojs.aaai.org/index.php/AAAI/article/view/41506/45467">Magic: Multi-agent argumentation and grammar integrated critiquer</a></div><div class="pub-authors">Joaquín Jordán, Xavier Yin, Melissa Fabros, <strong>Gireeja Ranade</strong>, Narges Norouzi</div><div class="pub-venue">Proceedings of the AAAI Conference on Artificial Intelligence 2026</div></li>
+<li class="pub"><div class="pub-title"><a href="https://kilthub.cmu.edu/ndownloader/files/63381051">Bridging the gap to autoformalize free-form human reasoning</a></div><div class="pub-authors">Chenjun Guo, Manooshree Patel, Arnav Mehta, Rayna Bhattacharyya, Thomas Lu, Niels Voss, Bjoern Hartmann, JD Zamfirescu-Pereira, Sarah Chasins, <strong>Gireeja Ranade</strong></div><div class="pub-venue">Plateau Workshop 2026</div></li>
+<li class="pub"><div class="pub-title"><a href="https://dl.acm.org/doi/abs/10.1145/3770761.3777364">A Verification-First, Self-Healing Framework for LLM-Enabled Generation of CS1 Exercises</a></div><div class="pub-authors">Aneesh Durai, Anirudh Chaudhary, Naveen Nathan, <strong>Gireeja Ranade</strong>, Narges Norouzi</div><div class="pub-venue">Proceedings of the 57th ACM Technical Symposium on Computer Science Education V. 2 2026</div></li>
+<li class="pub"><div class="pub-title"><a href="https://link.springer.com/chapter/10.1007/978-3-031-98459-4_8">Askademia: A real-time AI system for automatic responses to student questions</a></div><div class="pub-authors">Meenakshi Mittal, Gaurav Tyagi, Azalea Bailey, <strong>Gireeja Ranade</strong>, Narges Norouzi</div><div class="pub-venue">International Conference on Artificial Intelligence in Education 2025</div></li>
+<li class="pub"><div class="pub-title"><a href="https://arxiv.org/pdf/2507.12674">Parastudent: Generating and evaluating realistic student code by teaching llms to struggle</a></div><div class="pub-authors">Mihran Miroyan, Rose Niousha, Joseph E Gonzalez, <strong>Gireeja Ranade</strong>, Narges Norouzi</div><div class="pub-venue">arXiv preprint arXiv:2507.12674 2025</div></li>
+<li class="pub"><div class="pub-title"><a href="https://link.springer.com/chapter/10.1007/978-3-031-98417-4_8">Modeling student knowledge progression across concepts in intelligent tutoring interactions</a></div><div class="pub-authors">Kanav Mittal, Abigail O’Neill, Hanna Schlegel, <strong>Gireeja Ranade</strong>, Narges Norouzi</div><div class="pub-venue">International Conference on Artificial Intelligence in Education 2025</div></li>
+<li class="pub"><div class="pub-title"><a href="https://dl.acm.org/doi/pdf/10.1145/3641555.3705237">Raising the bar: Automating consistent and equitable student support with LLMs</a></div><div class="pub-authors">Meenakshi Mittal, Azalea Bailey, Victoria Phelps, Mihran Miroyan, Chancharik Mitra, Rishi Jain, Rose Niousha, <strong>Gireeja Ranade</strong>, Narges Norouzi</div><div class="pub-venue">Proceedings of the 56th ACM Technical Symposium on Computer Science Education V. 2 2025</div></li>
+<li class="pub"><div class="pub-title"><a href="https://dl.acm.org/doi/pdf/10.1145/3641554.3701965">Analyzing pedagogical quality and efficiency of llm responses with ta feedback to live student questions</a></div><div class="pub-authors">Mihran Miroyan, Chancharik Mitra, Rishi Jain, <strong>Gireeja Ranade</strong>, Narges Norouzi</div><div class="pub-venue">Proceedings of the 56th ACM Technical Symposium on Computer Science Education V. 1 2025</div></li>
+<li class="pub"><div class="pub-title"><a href="https://openreview.net/pdf?id=0IsLjMjD0P">Unspoken logic: Understanding and bridging the gap between free-form and LLM-interpretable natural language mathematical proofs</a></div><div class="pub-authors">Chenjun Guo, Manooshree Patel, Bjoern Hartmann, JD Zamfirescu-Pereira, Sarah Chasins, <strong>Gireeja Ranade</strong></div><div class="pub-venue">The 5th Workshop on Mathematical Reasoning and AI at NeurIPS 2025</div></li>
+<li class="pub"><div class="pub-title"><a href="https://ojs.aaai.org/index.php/AAAI/article/download/30368/32422">RetLLM-E: retrieval-prompt strategy for question-answering on student discussion forums</a></div><div class="pub-authors">Chancharik Mitra, Mihran Miroyan, Rishi Jain, Vedant Kumud, <strong>Gireeja Ranade</strong>, Narges Norouzi</div><div class="pub-venue">Proceedings of the AAAI conference on artificial intelligence 2024</div></li>
+<li class="pub"><div class="pub-title"><a href="https://dl.acm.org/doi/pdf/10.1145/3626253.3635609">Elevating learning experiences: leveraging large language models as student-facing assistants in discussion forums</a></div><div class="pub-authors">Chancharik Mitra, Mihran Miroyan, Rishi Jain, Vedant Kumud, <strong>Gireeja Ranade</strong>, Narges Norouzi</div><div class="pub-venue">Proceedings of the 55th ACM Technical Symposium on Computer Science Education V. 2 2024</div></li>
+</ul>
+~~~
+
+## Learning dynamics and ML theory
+
+~~~
+<ul class="pub-list">
+<li class="pub"><div class="pub-title"><a href="https://arxiv.org/pdf/2608.01032">The Fourth Quadrant: A Stylized View of Benign Misfitting</a></div><div class="pub-authors"><strong>Gireeja Ranade</strong>, Anant Sahai</div><div class="pub-venue">arXiv preprint arXiv:2608.01032 2026</div></li>
+<li class="pub"><div class="pub-title">Pretraining with Masked Backstories in a Toy World</div><div class="pub-authors">Sultan Daniels, Dylan Davis, <strong>Gireeja Ranade</strong>, Anant Sahai</div><div class="pub-venue">Workshop on Scientific Methods for Understanding Deep Learning , 0</div></li>
+<li class="pub"><div class="pub-title">Emergence, pretraining loss and associative recall: a toy model</div><div class="pub-authors">Sultan Daniels, Dylan Davis, Dhruv Gautam, Wentinn Liao, <strong>Gireeja Ranade</strong>, Anant Sahai</div><div class="pub-venue">ICML 2025 Workshop on Methods and Opportunities at Small Scale , 0</div></li>
+<li class="pub"><div class="pub-title"><a href="https://arxiv.org/pdf/2507.01414">Decomposing Prediction Mechanisms for In-Context Recall</a></div><div class="pub-authors">Sultan Daniels, Dylan Davis, Dhruv Gautam, Wentinn Liao, <strong>Gireeja Ranade</strong>, Anant Sahai</div><div class="pub-venue">arXiv preprint arXiv:2507.01414 2025</div></li>
+<li class="pub"><div class="pub-title"><a href="https://openreview.net/pdf?id=S5HdhHSEpn">Different simultaneous mechanisms for in-context recall have distinct learning dynamics</a></div><div class="pub-authors">Sultan Daniels, Dylan Davis, Dhruv Gautam, Wentinn Liao, <strong>Gireeja Ranade</strong>, Anant Sahai</div><div class="pub-venue">High-dimensional Learning Dynamics 2025</div></li>
+</ul>
+~~~
+
+## Information and control theory
+
+~~~
+<ul class="pub-list">
+<li class="pub"><div class="pub-title"><a href="https://ieeexplore.ieee.org/iel8/9552933/9712344/11474337.pdf">Stabilizing a Linear System Using Phone Calls When Time is Information</a></div><div class="pub-authors">Mohammad Javad Khojasteh, Massimo Franceschetti, <strong>Gireeja Ranade</strong></div><div class="pub-venue">IEEE Open Journal of Control Systems 2026</div></li>
+<li class="pub"><div class="pub-title"><a href="https://www.ideals.illinois.edu/items/137361/bitstreams/448180/data.pdf">Control of Dynamical Systems with Multiplicative Observation Noise with Unknown Distribution Parameters</a></div><div class="pub-authors">Eric Xu, <strong>Gireeja Ranade</strong></div><div class="pub-venue">2025 61st Allerton Conference on Communication, Control, and Computing Proceedings</div></li>
+<li class="pub"><div class="pub-title"><a href="https://ieeexplore.ieee.org/abstract/document/10383396/">Control of systems with multiplicative observation noise</a></div><div class="pub-authors">Moses Won, <strong>Gireeja Ranade</strong></div><div class="pub-venue">2023 62nd IEEE Conference on Decision and Control (CDC)</div></li>
+<li class="pub"><div class="pub-title"><a href="https://ieeexplore.ieee.org/abstract/document/10206793/">Control of a Multiplicative Observation Noise System: MAP-based Achievable Strategy</a></div><div class="pub-authors">Moses Won, <strong>Gireeja Ranade</strong></div><div class="pub-venue">2023 IEEE International Symposium on Information Theory (ISIT)</div></li>
+<li class="pub"><div class="pub-title"><a href="https://arxiv.org/pdf/1807.07686.pdf">Exact minimum number of bits to stabilize a linear system</a></div><div class="pub-authors">Victoria Kostina, Yuval Peres, <strong>Gireeja Ranade</strong>, Mark Sellke</div><div class="pub-venue">IEEE Transactions on Automatic Control 2021</div></li>
+<li class="pub"><div class="pub-title"><a href="https://arxiv.org/pdf/2105.04652.pdf">Stabilizability of vector systems with uniform actuation unpredictability</a></div><div class="pub-authors">Rahul Arya, Chih-Yuan Chiu, <strong>Gireeja Ranade</strong></div><div class="pub-venue">2021 IEEE International Symposium on Information Theory (ISIT)</div></li>
+<li class="pub"><div class="pub-title"><a href="https://ieeexplore.ieee.org/abstract/document/9343760/">Stabilizing a system with an unbounded random gain using only finitely many bits</a></div><div class="pub-authors">Victoria Kostina, Yuval Peres, <strong>Gireeja Ranade</strong>, Mark Sellke</div><div class="pub-venue">IEEE Transactions on Information Theory 2021</div></li>
+<li class="pub"><div class="pub-title"><a href="https://dl.acm.org/doi/pdf/10.1145/3410387">Computing value of spatiotemporal information</a></div><div class="pub-authors">Heba Aly, John Krumm, <strong>Gireeja Ranade</strong>, Eric Horvitz</div><div class="pub-venue">Communications of the ACM 2020</div></li>
+<li class="pub"><div class="pub-title"><a href="https://people.eecs.berkeley.edu/~vignesh.subramanian/files/isit_2020_full_version.pdf">Learning a neural-network controller for a multiplicative observation noise system</a></div><div class="pub-authors">Vignesh Subramanian, Moses Won, <strong>Gireeja Ranade</strong></div><div class="pub-venue">2020 IEEE International Symposium on Information Theory (ISIT)</div></li>
+<li class="pub"><div class="pub-title"><a href="https://www.pnas.org/content/117/11/5624">Communication cost of consensus for nodes with limited memory</a></div><div class="pub-authors">Giulia Fanti, Nina Holden, Yuval Peres, <strong>Gireeja Ranade</strong></div><div class="pub-venue">Proceedings of the National Academy of Sciences 2020</div></li>
+<li class="pub"><div class="pub-title"><a href="https://dl.acm.org/doi/pdf/10.1145/3320431">To buy or not to buy: Computing value of spatiotemporal information</a></div><div class="pub-authors">Heba Aly, John Krumm, <strong>Gireeja Ranade</strong>, Eric Horvitz</div><div class="pub-venue">ACM Transactions on Spatial Algorithms and Systems (TSAS) 2019</div></li>
+<li class="pub"><div class="pub-title"><a href="https://people.eecs.berkeley.edu/~gireeja/Papers/dprz19.pdf">When multiplicative noise stymies control</a></div><div class="pub-authors">Jian Ding, Yuval Peres, <strong>Gireeja Ranade</strong>, Alex Zhai</div><div class="pub-venue">The Annals of Applied Probability 2019</div></li>
+<li class="pub"><div class="pub-title"><a href="https://arxiv.org/pdf/1804.00351">Stabilizing a linear system using phone calls</a></div><div class="pub-authors">Mohammad Javad Khojasteh, Massimo Franceschetti, <strong>Gireeja Ranade</strong></div><div class="pub-venue">2019 18th European Control Conference (ECC)</div></li>
+<li class="pub"><div class="pub-title">Estimating a linear process using phone calls</div><div class="pub-authors">MJ Khojasteh, M Franceschetti, <strong>Gireeja Ranade</strong></div><div class="pub-venue">2018 IEEE Conference on Decision and Control (CDC)</div></li>
+<li class="pub"><div class="pub-title"><a href="http://erichorvitz.com/sigspatial_2018_exp_value_location_data.pdf">On the value of spatiotemporal information: Principles and scenarios</a></div><div class="pub-authors">H Aly, J Krumm, <strong>Gireeja Ranade</strong>, E Horvitz</div><div class="pub-venue">Proceedings of the 26th ACM SIGSPATIAL International Conference on Advances  2018</div></li>
+<li class="pub"><div class="pub-title"><a href="https://arxiv.org/abs/1701.04187">Control capacity</a></div><div class="pub-authors"><strong>Gireeja Ranade</strong>, Anant Sahai</div><div class="pub-venue">IEEE Transactions on Information Theory 2018</div></li>
+<li class="pub"><div class="pub-title"><a href="https://arxiv.org/abs/1807.07686">Exact minimum number of bits to stabilize a linear system</a></div><div class="pub-authors">Victoria Kostina, Yuval Peres, <strong>Gireeja Ranade</strong> and Mark Sellke</div><div class="pub-venue">IEEE CDC 2018</div></li>
+<li class="pub"><div class="pub-title"><a href="https://arxiv.org/abs/1805.05535">Stabilizing a system with unbounded random gain using only a finite number of bits</a></div><div class="pub-authors">Victoria Kostina, Yuval Peres, <strong>Gireeja Ranade</strong> and Mark Sellke</div><div class="pub-venue">IEEE ISIT 2018</div></li>
+<li class="pub"><div class="pub-title"><a href="http://www.eecs.berkeley.edu/~gireeja/Papers/HRS16.pdf">Control with actuation anticipation</a></div><div class="pub-authors">E Hariyoshi, <strong>Gireeja Ranade</strong>, Anant Sahai</div><div class="pub-venue">2016 IEEE 55th Conference on Decision and Control (CDC)</div></li>
+<li class="pub"><div class="pub-title"><a href="http://www.eecs.berkeley.edu/~gireeja/Papers/KPRR16.pdf">Rate-limited control of systems with uncertain gain</a></div><div class="pub-authors">V Kostina, Y Peres, MZ Rácz, <strong>Gireeja Ranade</strong></div><div class="pub-venue">2016 54th Annual Allerton Conference on Communication, Control, and </div></li>
+<li class="pub"><div class="pub-title"><a href="http://www.eecs.berkeley.edu/~gireeja/Papers/isit2016tiger.pdf">A tiger by the tail: When multiplicative noise stymies control</a></div><div class="pub-authors">J Ding, Y Peres, <strong>Gireeja Ranade</strong></div><div class="pub-venue">2016 IEEE International Symposium on Information Theory (ISIT)</div></li>
+<li class="pub"><div class="pub-title"><a href="http://www.eecs.berkeley.edu/~gireeja/Papers/icc2016.pdf">Control with side information</a></div><div class="pub-authors"><strong>Gireeja Ranade</strong>, Anant Sahai</div><div class="pub-venue">2016 Indian Control Conference (ICC)</div></li>
+<li class="pub"><div class="pub-title"><a href="http://www.eecs.berkeley.edu/~gireeja/Papers/allerton2015.pdf">Vector control systems with unpredictable actuation</a></div><div class="pub-authors">E Hariyoshi, <strong>Gireeja Ranade</strong>, Anant Sahai</div><div class="pub-venue">2015 53rd Annual Allerton Conference on Communication, Control, and </div></li>
+<li class="pub"><div class="pub-title"><a href="http://www.eecs.berkeley.edu/~gireeja/Papers/isit2015cameraready.pdf">Control Capacity</a></div><div class="pub-authors"><strong>Gireeja Ranade</strong> and Anant Sahai</div><div class="pub-venue">IEEE International Symposium on Information Theory (ISIT) 2015</div></li>
+<li class="pub"><div class="pub-title"><a href="http://www.eecs.berkeley.edu/~gireeja/Papers/isit2014_cameraready.pdf">Side-information in control and estimation</a></div><div class="pub-authors">G Ramnarayan, <strong>Gireeja Ranade</strong>, Anant Sahai</div><div class="pub-venue">2014 IEEE International Symposium on Information Theory</div></li>
+<li class="pub"><div class="pub-title"><a href="http://www.eecs.berkeley.edu/~gireeja/Papers/allerton13cameraready.pdf">Non-coherence in estimation and control</a></div><div class="pub-authors"><strong>Gireeja Ranade</strong>, Anant Sahai</div><div class="pub-venue">2013 51st Annual Allerton Conference on Communication, Control, and </div></li>
+<li class="pub"><div class="pub-title"><a href="http://www.eecs.berkeley.edu/~gireeja/Papers/itw2012_final.pdf">Comments on unknown channels</a></div><div class="pub-authors">K Woyach, K Harrison, <strong>Gireeja Ranade</strong>, Anant Sahai</div><div class="pub-venue">2012 IEEE Information Theory Workshop</div></li>
+<li class="pub"><div class="pub-title"><a href="http://www.eecs.berkeley.edu/~gireeja/Papers/carryfree.pdf">Carry-free models and beyond</a></div><div class="pub-authors">SY Park, <strong>Gireeja Ranade</strong>, Anant Sahai</div><div class="pub-venue">2012 IEEE International Symposium on Information Theory Proceedings</div></li>
+<li class="pub"><div class="pub-title"><a href="http://www.eecs.berkeley.edu/~gireeja/Papers/macwh_isit2011_website.pdf">Implicit communication in multiple-access settings</a></div><div class="pub-authors"><strong>Gireeja Ranade</strong>, Anant Sahai</div><div class="pub-venue">2011 IEEE International Symposium on Information Theory Proceedings</div></li>
+</ul>
+~~~
+
+## Fairness and diversity dynamics
+
+~~~
+<ul class="pub-list">
+<li class="pub"><div class="pub-title"><a href="https://link.springer.com/chapter/10.1007/978-3-032-03844-9_10">Too Many Fairness Metrics: Is There a Solution? Equity Across Demographic Groups for the Facility Location Problem</a></div><div class="pub-authors">Swati Gupta, Akhil Jalan, <strong>Gireeja Ranade</strong>, Helen Yang, Simon Zhuang</div><div class="pub-venue">Data Science and Optimization 2026</div></li>
+<li class="pub"><div class="pub-title"><a href="https://www2.eecs.berkeley.edu/Pubs/TechRpts/2025/Archive/EECS-2025-122.pdf">Modeling Diversity Dynamics in Time-Evolving Collaboration Networks.</a></div><div class="pub-authors">Christopher Archer, <strong>Gireeja Ranade</strong></div><div class="pub-venue">Symposium on Foundations of Responsible Computing (FORC) 2024</div></li>
+<li class="pub"><div class="pub-title"><a href="https://arxiv.org/pdf/2307.13713">Phase transitions of diversity in stochastic block model dynamics</a></div><div class="pub-authors">Simina Brânzei, Nithish Kumar, <strong>Gireeja Ranade</strong></div><div class="pub-venue">2023 59th Annual Allerton Conference on Communication, Control, and Computing (Allerton)</div></li>
+</ul>
+~~~
+
+## Education and broadening participation
+
+~~~
+<ul class="pub-list">
+<li class="pub"><div class="pub-title"><a href="https://ieeexplore.ieee.org/abstract/document/11328447/">Broadening Participation in CS Research with Scalable Undergraduate Research Mini-Projects</a></div><div class="pub-authors">Bridget Agyare, Manooshree Patel, Alicia Matsumoto, <strong>Gireeja Ranade</strong></div><div class="pub-venue">2025 IEEE Frontiers in Education Conference (FIE)</div></li>
+<li class="pub"><div class="pub-title"><a href="https://ieeexplore.ieee.org/abstract/document/10343384/">Student feedback on opt-in, inclusive, course-integrated study groups</a></div><div class="pub-authors">Bridget Agyare, Alicia Matsumoto, Manooshree Patel, <strong>Gireeja Ranade</strong></div><div class="pub-venue">2023 IEEE Frontiers in Education Conference (FIE)</div></li>
+<li class="pub"><div class="pub-title"><a href="https://people.eecs.berkeley.edu/~gireeja/Papers/inclusivestudygroups.pdf">Inclusive study group formation at scale</a></div><div class="pub-authors">Sumer Kohli*, Neelesh Ramachandran*, Ana Tudor*, Gloria Tumushabe*, Olivia Hsu, <strong>Gireeja Ranade</strong></div><div class="pub-venue">Proceedings of the 54th ACM Technical Symposium on Computer Science Education V. 1 2023</div><div class="pub-note">*These authors contributed equally to the work</div></li>
+<li class="pub"><div class="pub-title"><a href="https://eprints.whiterose.ac.uk/id/eprint/197454/">Control for Societal-Scale Challenges: Roadmap 2030</a></div><div class="pub-authors">Andrew Alleyne, Frank Allgöwer, Aaron D Ames, Saurabh Amin, James Anderson, Anuradha M Annaswamy, Panos J Antsaklis, Neda Bagheri, Hamsa Balakrishnan, Bassam Bamieh, John Baras, Margret Bauer, Alexandre Bayen, Paul Bogdan, Steven L Brunton, Francesco Bullo, Etienne Burdet, Joel Burdick, Laurent Burlion, C Canudas de Wit, Ming Cao, Christos G Cassandras, Aranya Chakrabortty, Giacomo Como, Marie Csete, Fabrizio Dabbene, Munther Dahleh, Amritam Das, Eyal Dassau, Claudio De Persis, Mario di Bernardo, Stefano Di Cairano, DV Dimarogonas, Florian Dörfler, John C Doyle, Francis J Doyle III, Anca Dragan, Magnus Egerstedt, Johan Eker, Sarah Fay, Dimitar Filev, Angela Fontan, Elisa Franco, Masayuki Fujita, Mario Garcia-Sanz, Dennice Gayme, WPMH Heemels, João P Hespanha, Sandra Hirche, Anette Hosoi, Jonathan P How, Gabriela Hug, Marija Ilić, Hideaki Ishii, Ali Jadbabaie, Matin Jafarian, SQ-S Jia, TA Johansen, Karl H Johansson, Dalton Jones, Mustafa Khammash, Pramod Khargonekar, Mykel J Kochenderfer, Andreas Krause, Anthony Kuh, Dana Kulić, Françoise Lamnabhi-Lagarrigue, Naomi E Leonard, Frederick Leve, Na Li, Steven Low, John Lygeros, Iven Mareels, Sonia Martinez, Nikolai Matni, Tommaso Menara, Katja Mombaur, Kevin Moore, Richard Murray, Toru Namerikawa, Angelia Nedich, Sandeep Neema, Mariana Netto, Timothy O’Leary, Marcia K O’Malley, Lucy Y Pao, Antonis Papachristodoulou, George J Pappas, Philip E Paré, Thomas Parisini, Fabio Pasqualetti, Marco Pavone, Akshay Rajhans, <strong>Gireeja Ranade</strong>, Anders Rantzer, Lillian Ratliff, J Anthony Rossiter, Dorsa Sadigh, Tariq Samad, Henrik Sandberg, Sri Sarma, Luca Schenato, Jacquelien Scherpen, Angela Schoellig, Rodolphe Sepulchre, Jeff Shamma, Robert Shorten, Bruno Sinopoli, Koushil Sreenath, Jakob Stoustrup, Jing Sun, Paulo Tabuada, Emma Tegling, Dawn Tilbury, Claire J Tomlin, Jana Tumova, Kevin Wise, Dan Work, Junaid Zafar, Melanie Zeilinger</div><div class="pub-venue">IEEE Control Systems Society Publication 2023</div></li>
+<li class="pub"><div class="pub-title"><a href="https://www.sciencedirect.com/science/article/pii/S1367578823000111">Control education for societal-scale challenges: A community roadmap</a></div><div class="pub-authors">John Anthony Rossiter, Christos G Cassandras, João Hespanha, Sebastian Dormido, Luis de la Torre, <strong>Gireeja Ranade</strong>, Antonio Visioli, John Hedengren, Richard M Murray, Panos Antsaklis, Francoise Lamnabhi-Lagarrigue, Thomas Parisini</div><div class="pub-venue">Annual Reviews in Control 2023</div></li>
+</ul>
+~~~
+
+## Misinformation
+
+~~~
+<ul class="pub-list">
+<li class="pub"><div class="pub-title"><a href="http://erichorvitz.com/Multisystem_disinformation.pdf">Characterizing search-engine traffic to internet research agency web properties</a></div><div class="pub-authors">Alexander Spangher, <strong>Gireeja Ranade</strong>, Besmira Nushi, Adam Fourney, Eric Horvitz</div><div class="pub-venue">Proceedings of The Web Conference 2020</div></li>
+<li class="pub"><div class="pub-title"><a href="https://arxiv.org/pdf/1907.00435">YouTube chatter: Understanding online comments discourse on misinformative and political YouTube videos</a></div><div class="pub-authors">Aarash Heydari, Janny Zhang, Shaan Appel, Xinyi Wu, <strong>Gireeja Ranade</strong></div><div class="pub-venue">arXiv preprint arXiv:1907.00435 2019</div></li>
+<li class="pub"><div class="pub-title">Analysis of Strategy and Spread of Russia-sponsored Content in the US in 2017</div><div class="pub-authors">A Spangher, <strong>Gireeja Ranade</strong>, B Nushi, A Fourney, E Horvitz</div><div class="pub-venue">arXiv preprint arXiv:1810.10033 2018</div></li>
+<li class="pub"><div class="pub-title"><a href="https://psyarxiv.com/ajh2q/">Characterizing the Internet Research Agency’s social media operations during the 2016 US presidential election using linguistic analyses</a></div><div class="pub-authors">Ryan Boyd, Alexander Spangher, Adam Fourney, Besmira Nushi, <strong>Gireeja Ranade</strong>, James Pennebaker, Eric Horvitz</div><div class="pub-venue">PsyArXiv preprint 2018</div></li>
+<li class="pub"><div class="pub-title">Geographic and Temporal Trends in Fake News Consumption During the 2016 US Presidential Election.</div><div class="pub-authors">Adam Fourney*, Miklos Z. Racz*, <strong>Gireeja Ranade</strong>*, Markus Mobius, Eric Horvitz</div><div class="pub-venue">ACM International Conference on Information and Knowledge Management (CIKM) 2017</div><div class="pub-note">*These authors contributed equally to the work</div></li>
+</ul>
+~~~
+
+## Sensing and sustainability
+
+~~~
+<ul class="pub-list">
+<li class="pub"><div class="pub-title"><a href="https://dl.acm.org/doi/pdf/10.1145/3314344.3332485">Low-cost aerial imaging for small holder farmers</a></div><div class="pub-authors">Aditya Jain, Zerina Kapetanovic, Akshit Kumar, Vasuki Narasimha Swamy, Rohit Patil, Deepak Vasisht, Rahul Sharma, Manohar Swaminathan, Ranveer Chandra, Anirudh Badam, <strong>Gireeja Ranade</strong>, Sudipta Sinha, Akshay Uttama Nambi S N</div><div class="pub-venue">ACM SIGCAS Conference on Computing and Sustainable Societies (COMPASS) 2019</div></li>
+</ul>
+~~~
+
+## Wireless control
+
+~~~
+<ul class="pub-list">
+<li class="pub"><div class="pub-title"><a href="https://arxiv.org/abs/1806.08777">Wireless channel dynamics and robustness for ultra-reliable low-latency communications</a></div><div class="pub-authors">Vasuki Narasimha Swamy, Paul Rigge, <strong>Gireeja Ranade</strong>, Borivoje Nikolić, Anant Sahai</div><div class="pub-venue">IEEE Journal on Selected Areas in Communications 2019</div></li>
+<li class="pub"><div class="pub-title">Predicting wireless channels for ultra-reliable low-latency communications</div><div class="pub-authors">VN Swamy, P Rigge, <strong>Gireeja Ranade</strong>, B Nikolic, Anant Sahai</div><div class="pub-venue">2018 IEEE International Symposium on Information Theory (ISIT)</div></li>
+<li class="pub"><div class="pub-title">Real-time cooperative communication for automation over wireless</div><div class="pub-authors">VN Swamy, S Suri, P Rigge, M Weiner, <strong>Gireeja Ranade</strong>, Anant Sahai, B Nikolić</div><div class="pub-venue">IEEE Transactions on Wireless Communications 2017</div></li>
+<li class="pub"><div class="pub-title"><a href="http://www.eecs.berkeley.edu/~gireeja/Papers/DNRS16.pdf">Finite block length coding for low-latency high-reliability wireless communication</a></div><div class="pub-authors">L Dickstein, VN Swamy, <strong>Gireeja Ranade</strong>, Anant Sahai</div><div class="pub-venue">2016 54th Annual Allerton Conference on Communication, Control, and </div></li>
+<li class="pub"><div class="pub-title"><a href="http://www.eecs.berkeley.edu/~gireeja/Papers/isit2016robust.pdf">Robustness of cooperative communication schemes to channel models</a></div><div class="pub-authors">VN Swamy, <strong>Gireeja Ranade</strong>, Anant Sahai</div><div class="pub-venue">2016 IEEE International Symposium on Information Theory (ISIT)</div></li>
+<li class="pub"><div class="pub-title">Network coding for high-reliability low-latency wireless control</div><div class="pub-authors">VN Swamy, P Rigge, <strong>Gireeja Ranade</strong>, Anant Sahai, B Nikolić</div><div class="pub-venue">2016 IEEE Wireless Communications and Networking Conference Workshops (WCNCW </div></li>
+<li class="pub"><div class="pub-title">Cooperative communication for high-reliability low-latency wireless control</div><div class="pub-authors">VN Swamy, S Suri, P Rigge, M Weiner, <strong>Gireeja Ranade</strong>, Anant Sahai, B Nikolić</div><div class="pub-venue">2015 IEEE International Conference on Communications (ICC)</div></li>
+<li class="pub"><div class="pub-title">Dynamic Fractional Frequency Reuse in OFDMA systems</div><div class="pub-authors">K Harrison, <strong>Gireeja Ranade</strong></div><div class="pub-venue">IEEE INFOCOM 2008</div></li>
+</ul>
+~~~
+
+## Safety and control
+
+~~~
+<ul class="pub-list">
+<li class="pub"><div class="pub-title"><a href="https://arxiv.org/abs/1711.06391">Data-driven planning via imitation learning</a></div><div class="pub-authors">Sanjiban Choudhury, Mohak Bhardwaj, Sankalp Arora, Ashish Kapoor, <strong>Gireeja Ranade</strong>, Sebastian Scherer, Debadeepta Dey</div><div class="pub-venue">The International Journal of Robotics Research 2018</div></li>
+<li class="pub"><div class="pub-title"><a href="https://arxiv.org/abs/1802.08678">Verifying controllers against adversarial examples with bayesian optimization</a></div><div class="pub-authors">S Ghosh, F Berkenkamp, <strong>Gireeja Ranade</strong>, S Qadeer, A Kapoor</div><div class="pub-venue">IEEE International Conference on Robotics and Automation (ICRA) 2018</div></li>
+<li class="pub"><div class="pub-title">No-regret replanning under uncertainty</div><div class="pub-authors">W Sun, N Sood, D Dey, <strong>Gireeja Ranade</strong>, S Prakash, A Kapoor</div><div class="pub-venue">IEEE International Conference on Robotics and Automation (ICRA) 2017</div></li>
+<li class="pub"><div class="pub-title">Learning to gather information via imitation</div><div class="pub-authors">S Choudhury, A Kapoor, <strong>Gireeja Ranade</strong>, D Dey</div><div class="pub-venue">IEEE International Conference on Robotics and Automation (ICRA) 2017</div></li>
+<li class="pub"><div class="pub-title"><a href="https://arxiv.org/abs/1705.07834">Adaptive Information Gathering via Imitation Learning</a></div><div class="pub-authors">Sanjiban Choudhury, Ashish Kapoor, <strong>Gireeja Ranade</strong>, Sebastian Scherer, Debadeepta Dey</div><div class="pub-venue">RSS 2017</div></li>
+</ul>
+~~~
+
+## Crowdsourcing
+
+~~~
+<ul class="pub-list">
+<li class="pub"><div class="pub-title">The role of information patterns in designing crowdsourcing contests</div><div class="pub-authors">GV Ranade, LR Varshney</div><div class="pub-venue">Creating and capturing value through crowdsourcing 2018</div></li>
+<li class="pub"><div class="pub-title"><a href="http://www.eecs.berkeley.edu/~gireeja/Papers/hcomp2012_final.pdf">To crowdsource or not to crowdsource?</a></div><div class="pub-authors"><strong>Gireeja Ranade</strong>, LR Varshney</div><div class="pub-venue">4th Human Computation Workshop (HCOMP), AAAI 2012</div></li>
+</ul>
+~~~
+
+## Datacenter networks
+
+~~~
+<ul class="pub-list">
+<li class="pub"><div class="pub-title"><a href="http://www.eecs.berkeley.edu/~gireeja/Papers/projector.pdf">Projector: Agile reconfigurable data center interconnect</a></div><div class="pub-authors">Monia Ghobadi, Ratul Mahajan, Amar Phanishayee, Nikhil Devanur, Janardhan Kulkarni, <strong>Gireeja Ranade</strong>, Pierre-Alexandre Blanche, Houman Rastegarfar, Madeleine Glick, Daniel Kilper</div><div class="pub-venue">Proceedings of the 2016 ACM SIGCOMM Conference</div></li>
+</ul>
+~~~
+
+## Patents
+
+~~~
+<ul class="pub-list">
+<li class="pub"><div class="pub-title">Systems and methods for model-based estimation of cardiac output and total peripheral resistance</div><div class="pub-authors">TA Parlikar, GV Ranade, T Heldt, GC Verghese</div><div class="pub-venue">US Patent 9,375,160</div></li>
+<li class="pub"><div class="pub-title">Systems and methods for model-based estimation of cardiac output and total peripheral resistance</div><div class="pub-authors">TA Parlikar, GV Ranade, T Heldt, GC Verghese</div><div class="pub-venue">US Patent 8,282,564</div></li>
+</ul>
+~~~
+
+## Theses
+
+~~~
+<ul class="pub-list">
+<li class="pub"><div class="pub-title"><a href="http://www.eecs.berkeley.edu/~gireeja/thesis/gireejaranadethesis.pdf">Active systems with uncertain parameters: an information-theoretic perspective</a></div><div class="pub-authors">GV Ranade</div><div class="pub-venue">PhD dissertation, UC Berkeley 2014</div></li>
+<li class="pub"><div class="pub-title">Information in the Local Field Potential: Implications for Brain-Machine Interfaces</div><div class="pub-authors"><strong>Gireeja Ranade</strong></div><div class="pub-venue">Master&#x27;s thesis, UC Berkeley 2009</div></li>
+</ul>
+~~~
+
+## Neuroscience
+
+~~~
+<ul class="pub-list">
+<li class="pub"><div class="pub-title"><a href="http://www.jneurosci.org/content/29/41/12948.short">Cortical representation of ipsilateral arm movements in monkey and man</a></div><div class="pub-authors">K Ganguly, L Secundo, <strong>Gireeja Ranade</strong>, A Orsborn, EF Chang, DF Dimitrov, et al.</div><div class="pub-venue">The Journal of Neuroscience 2009</div></li>
+<li class="pub"><div class="pub-title"><a href="http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=5109338&amp;tag=1">LFP beta power predicts cursor stationarity in BMI task</a></div><div class="pub-authors">GV Ranade, K Ganguly, J Carmena</div><div class="pub-venue">2009 4th International IEEE/EMBS Conference on Neural Engineering</div></li>
+</ul>
+~~~
+
+## Cardiovascular modeling
+
+~~~
+<ul class="pub-list">
+<li class="pub"><div class="pub-title">Model-based estimation of cardiac output and total peripheral resistance</div><div class="pub-authors">TA Parlikar, T Heldt, GV Ranade, GC Verghese</div><div class="pub-venue">2007 Computers in Cardiology</div></li>
+</ul>
+~~~

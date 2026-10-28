@@ -1,0 +1,36 @@
+# News items for the "Updates" section on the home page.
+#
+# HOW TO ADD AN UPDATE
+#   1. Add one line anywhere in this list (order does not matter; items are
+#      sorted newest-first automatically by `date`).
+#   2. Run:  python3 tools/build_sites.py
+#
+# FIELDS
+#   date:  YYYY-MM-DD, YYYY-MM, or YYYY. Used for sorting; shown as "Mon YYYY".
+#   label: (optional) text to show instead of the date, e.g. "Spring 2026".
+#   text:  the update, in Markdown: [link text](https://...), *italic*, **bold**.
+#          Wrap the whole text in double quotes; use single quotes inside if needed.
+#
+# The 8 most recent items appear on the home page; the rest go to /updates/.
+#
+# Template:
+# - {date: 2026-11, text: "Name presented [*Paper title*](https://...) at [Venue](https://...)."}
+
+- {date: 2026-10-24, text: "Two papers at [EMNLP 2026](https://2026.emnlp.org/) in Budapest: [*ParaStudent: Closing the Sim2Real Gap in User Simulators for AI Tutor Evaluation*](https://aclanthology.org/2026.emnlp-main.2488.pdf) and [*Formally Verified AI Co-Reasoning: An Education Case Study*](https://aclanthology.org/2026.findings-emnlp.977.pdf)."}
+- {date: 2026-10-01, text: "New preprint: [*LeanSide: A Formally Verified Co-Reasoning System for Natural-language Proofs*](https://arxiv.org/abs/2610.00760)."}
+- {date: 2026-10, text: "Gireeja spoke at the UC Berkeley Emeriti Association."}
+- {date: 2026-09-25, text: "Gireeja joined the panel for the [1st Relatorium Dialogue on Mathematics and AI](https://www.youtube.com/watch?v=7pukV1WtkO0), alongside Rem Faraone, Nestor Guillen, Max Lieblich and David Spivak."}
+- {date: 2026-08-01, text: "New preprint with Anant Sahai: [*The Fourth Quadrant: A Stylized View of Benign Misfitting*](https://arxiv.org/abs/2608.01032)."}
+# TODO: add paper title/link once available.
+- {date: 2026-07-15, text: "Ebonye Smith's paper on in-context control was accepted to the [IEEE Conference on Decision and Control (CDC 2026)](https://cdc2026.ieeecss.org/) in Honolulu."}
+- {date: 2026-07-11, text: "Arnav Mehta presented [work on faithful autoformalization](https://openreview.net/forum?id=XcDXOOzYX3) at the [ICML 2026 AI for Math Workshop](https://ai4math2026.github.io/) in Seoul."}
+- {date: 2026-05-15, text: "Arnav Mehta completed his M.S. with the thesis [*Faithful Auto-formalization for Education*](https://www2.eecs.berkeley.edu/Pubs/TechRpts/2026/EECS-2026-193.html)."}
+- {date: 2026-05-15, text: "Kanav Mittal completed his M.S. with the thesis [*Alignment Challenges in Educational AI*](https://www2.eecs.berkeley.edu/Pubs/TechRpts/2026/EECS-2026-199.html)."}
+- {date: 2026-04-23, text: "Sultan Daniels presented [*Pretraining with Masked Backstories in a Toy World*](https://openreview.net/forum?id=Qw5g6K0zhy) at the ICLR 2026 Workshop on Scientific Methods for Understanding Deep Learning (Sci4DL) in Rio de Janeiro."}
+- {date: 2026-03-09, text: "Nora Guo presented [*Bridging the Gap to Autoformalize Free-Form Human Reasoning*](https://kilthub.cmu.edu/ndownloader/files/63381051) at [PLATEAU 2026](https://plateau-workshop.org/) at Carnegie Mellon University."}
+- {date: 2026-01, label: "Spring 2026", text: "[LeanTutor](https://leantutor.org/) was deployed in EECS 127/227A at UC Berkeley, giving students verified feedback on their proofs."}
+- {date: 2026-01-20, text: "Manooshree Patel presented the first LeanTutor paper, [*LeanTutor: Towards a Verified AI Mathematical Proof Tutor*](https://ojs.aaai.org/index.php/AAAI/article/download/41514/45475), at EAAI-26 (with AAAI-26) in Singapore."}
+# TODO: replace `2026` with the actual month (YYYY-MM) and add an event link if there is one.
+- {date: 2026, text: "LeanTutor was presented at the Renaissance Philanthropy [AI for Math Fund](https://renaissancephilanthropy.org/initiatives/ai-for-math-fund/) Workshop 2026."}
+- {date: 2025-09, text: "LeanTutor received an [AI for Math Fund grant](https://cdss.berkeley.edu/news/uc-berkeley-receives-ai-math-fund-grants-vellum-and-leantutor-projects) from Renaissance Philanthropy and XTX Markets."}
+

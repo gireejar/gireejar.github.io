@@ -1,0 +1,37 @@
+/* Site-specific overrides on top of the hugo-website template.
+   Keeps the typography and purple accent of the original website. */
+
+body {
+    font-family: avenir, "Avenir Next", "Helvetica Neue", helvetica, arial, sans-serif;
+}
+
+/* Name in the top-left and the profile title use the signature purple. */
+.logo a,
+.profile .profile_inner h1 {
+    color: var(--darkcolor);
+}
+
+/* Links inside page content: purple, underline on hover (as on the old site). */
+.post-content a,
+.profile_inner span a {
+    color: var(--darkcolor);
+    box-shadow: none;
+    text-decoration: none;
+}
+
+.post-content a:hover,
+.profile_inner span a:hover {
+    text-decoration: underline;
+}
+
+/* Profile buttons: light purple pill, purple on hover. */
+.buttons .button:hover {
+    background: var(--darkcolor);
+    color: #fff;
+}
+
+/* Secondary accent from the original site (#993366) for small meta text. */
+.entry-footer,
+.post-meta {
+    color: #993366;
+}
