@@ -173,7 +173,7 @@ def build_franklin(papers, teaching, group, media, outreach, miscellaneous, upda
 
 ~~~
 <div class="profile">
-  <img class="profile-photo" src="/assets/gireeja.png" alt="Photo of Gireeja Ranade">
+  <img class="profile-photo" src="/assets/gireeja.jpg" alt="Photo of Gireeja Ranade">
   <div class="profile-info">
     <h1 class="profile-name">Gireeja Ranade</h1>
     <p class="profile-contact">

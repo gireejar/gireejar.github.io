@@ -3,7 +3,7 @@
 
 ~~~
 <div class="profile">
-  <img class="profile-photo" src="/assets/gireeja.png" alt="Photo of Gireeja Ranade">
+  <img class="profile-photo" src="/assets/gireeja.jpg" alt="Photo of Gireeja Ranade">
   <div class="profile-info">
     <h1 class="profile-name">Gireeja Ranade</h1>
     <p class="profile-contact">
@@ -23,6 +23,7 @@ Gireeja Ranade is an Associate Teaching Professor in the Electrical Engineering 
 
 ~~~
 <ul class="updates">
+<li><span class="update-date">Oct 2026</span><span class="update-text">Check out <a href="https://leantutor.org/">LeanTutor.org</a>!</span></li>
 <li><span class="update-date">Oct 2026</span><span class="update-text"><a href="https://www.youtube.com/watch?v=aToXNov5rXE">Benign misfitting video</a> is live!</span></li>
 <li><span class="update-date">Oct 2026</span><span class="update-text">New preprint: <a href="https://arxiv.org/abs/2610.00760"><em>LeanSide: A Formally Verified Co-Reasoning System for Natural-language Proofs</em></a>.</span></li>
 <li><span class="update-date">Oct 2026</span><span class="update-text">Gireeja spoke at the UC Berkeley Emeriti Association.</span></li>
@@ -30,7 +31,6 @@ Gireeja Ranade is an Associate Teaching Professor in the Electrical Engineering 
 <li><span class="update-date">Sep 2026</span><span class="update-text">Gireeja joined the panel for the <a href="https://www.youtube.com/watch?v=7pukV1WtkO0">1st Relatorium Dialogue on Mathematics and AI</a>, alongside Rem Faraone, Nestor Guillen, Max Lieblich and David Spivak.</span></li>
 <li><span class="update-date">Aug 2026</span><span class="update-text">New preprint with Anant Sahai: <a href="https://arxiv.org/abs/2608.01032"><em>The Fourth Quadrant: A Stylized View of Benign Misfitting</em></a>.</span></li>
 <li><span class="update-date">Jul 2026</span><span class="update-text">Ebonye Smith's paper on in-context control was accepted to the <a href="https://cdc2026.ieeecss.org/">IEEE Conference on Decision and Control (CDC 2026)</a> in Honolulu.</span></li>
-<li><span class="update-date">Jul 2026</span><span class="update-text">Arnav Mehta presented <a href="https://openreview.net/forum?id=XcDXOOzYX3">work on faithful autoformalization</a> at the <a href="https://ai4math2026.github.io/">ICML 2026 AI for Math Workshop</a> in Seoul.</span></li>
 </ul>
 ~~~
 

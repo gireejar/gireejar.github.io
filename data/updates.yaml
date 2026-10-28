@@ -16,6 +16,7 @@
 # Template:
 # - {date: 2026-11, text: "Name presented [*Paper title*](https://...) at [Venue](https://...)."}
 
+- {date: 2026-10-28, text: "Check out [LeanTutor.org](https://leantutor.org/)!"}
 - {date: 2026-10-28, text: "[Benign misfitting video](https://www.youtube.com/watch?v=aToXNov5rXE) is live!"}
 - {date: 2026-10-01, text: "New preprint: [*LeanSide: A Formally Verified Co-Reasoning System for Natural-language Proofs*](https://arxiv.org/abs/2610.00760)."}
 - {date: 2026-10, text: "Gireeja spoke at the UC Berkeley Emeriti Association."}

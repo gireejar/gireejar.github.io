@@ -6,6 +6,7 @@
 
 ~~~
 <ul class="updates">
+<li><span class="update-date">Jul 2026</span><span class="update-text">Arnav Mehta presented <a href="https://openreview.net/forum?id=XcDXOOzYX3">work on faithful autoformalization</a> at the <a href="https://ai4math2026.github.io/">ICML 2026 AI for Math Workshop</a> in Seoul.</span></li>
 <li><span class="update-date">May 2026</span><span class="update-text">Arnav Mehta completed his M.S. with the thesis <a href="https://www2.eecs.berkeley.edu/Pubs/TechRpts/2026/EECS-2026-193.html"><em>Faithful Auto-formalization for Education</em></a>.</span></li>
 <li><span class="update-date">May 2026</span><span class="update-text">Kanav Mittal completed his M.S. with the thesis <a href="https://www2.eecs.berkeley.edu/Pubs/TechRpts/2026/EECS-2026-199.html"><em>Alignment Challenges in Educational AI</em></a>.</span></li>
 <li><span class="update-date">Apr 2026</span><span class="update-text">Sultan Daniels presented <a href="https://openreview.net/forum?id=Qw5g6K0zhy"><em>Pretraining with Masked Backstories in a Toy World</em></a> at the ICLR 2026 Workshop on Scientific Methods for Understanding Deep Learning (Sci4DL) in Rio de Janeiro.</span></li>
