@@ -16,9 +16,10 @@
 # Template:
 # - {date: 2026-11, text: "Name presented [*Paper title*](https://...) at [Venue](https://...)."}
 
-- {date: 2026-10-24, text: "Two papers at [EMNLP 2026](https://2026.emnlp.org/) in Budapest: [*ParaStudent: Closing the Sim2Real Gap in User Simulators for AI Tutor Evaluation*](https://aclanthology.org/2026.emnlp-main.2488.pdf) and [*Formally Verified AI Co-Reasoning: An Education Case Study*](https://aclanthology.org/2026.findings-emnlp.977.pdf)."}
+- {date: 2026-10-28, text: "[Benign misfitting video](https://www.youtube.com/watch?v=aToXNov5rXE) is live!"}
 - {date: 2026-10-01, text: "New preprint: [*LeanSide: A Formally Verified Co-Reasoning System for Natural-language Proofs*](https://arxiv.org/abs/2610.00760)."}
 - {date: 2026-10, text: "Gireeja spoke at the UC Berkeley Emeriti Association."}
+- {date: 2026-10, text: "Two papers at [EMNLP 2026](https://2026.emnlp.org/) in Budapest: [*ParaStudent: Closing the Sim2Real Gap in User Simulators for AI Tutor Evaluation*](https://aclanthology.org/2026.emnlp-main.2488.pdf) and [*Formally Verified AI Co-Reasoning: An Education Case Study*](https://aclanthology.org/2026.findings-emnlp.977.pdf)."}
 - {date: 2026-09-25, text: "Gireeja joined the panel for the [1st Relatorium Dialogue on Mathematics and AI](https://www.youtube.com/watch?v=7pukV1WtkO0), alongside Rem Faraone, Nestor Guillen, Max Lieblich and David Spivak."}
 - {date: 2026-08-01, text: "New preprint with Anant Sahai: [*The Fourth Quadrant: A Stylized View of Benign Misfitting*](https://arxiv.org/abs/2608.01032)."}
 # TODO: add paper title/link once available.

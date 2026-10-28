@@ -1,23 +1,20 @@
-"""Generate content for both site prototypes from the shared files in data/.
+"""Generate the Franklin site's pages (sites/franklin/*.md) from the files in data/.
 
-    data/papers.yaml    -> publications
-    data/teaching.yaml  -> courses
-    data/group.yaml     -> students
-    data/talks.yaml     -> recorded talks
-    data/media.yaml     -> media mentions and news
-    data/updates.yaml   -> "Updates" on the Franklin home page (+ /updates/ archive)
-    data/outreach.md    -> CalMentors + "Etc." (plain Markdown)
+    data/papers.yaml        -> publications
+    data/teaching.yaml      -> courses
+    data/group.yaml         -> students
+    data/media.yaml         -> media mentions and news
+    data/updates.yaml       -> "Updates" on the home page (+ /updates/ archive)
+    data/outreach.md        -> CalMentors (plain Markdown)
+    data/miscellaneous.md   -> Miscellaneous (plain Markdown)
 
 Usage (from the Website/ folder):
-    python3 tools/build_sites.py            # regenerate both sites
-    python3 tools/build_sites.py --force    # also overwrite existing Hugo paper/course pages
+    python3 tools/build_sites.py
 
-Hugo paper and course pages are only created if they do not exist yet, so you
-can freely add abstracts, figures, BibTeX etc. to them without losing edits.
-Everything else (list pages, Franklin pages) is regenerated each time.
+The generated pages are overwritten each time, so edit the files in data/, not
+the .md files in sites/franklin/.
 """
 
-import argparse
 import html
 import re
 from pathlib import Path
@@ -26,7 +23,6 @@ import yaml
 
 ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / "data"
-HUGO = ROOT / "sites" / "hugo"
 FRANKLIN = ROOT / "sites" / "franklin"
 ME = "Gireeja Ranade"
 
@@ -34,16 +30,6 @@ ME = "Gireeja Ranade"
 def load(name):
     with (DATA / name).open(encoding="utf-8") as f:
         return yaml.safe_load(f)
-
-
-def q(s):
-    """Quote a string for YAML front matter."""
-    return '"' + str(s).replace("\\", "\\\\").replace('"', '\\"') + '"'
-
-
-def split_authors(s):
-    s = s.replace(" and ", ", ")
-    return [a.strip() for a in s.split(",") if a.strip()]
 
 
 def write(path: Path, text: str, overwrite=True):
@@ -61,83 +47,8 @@ def bold_me(authors, fmt="md"):
 
 
 # --------------------------------------------------------------------------
-# Hugo (pmichaillat/hugo-website)
+# Markdown helpers
 # --------------------------------------------------------------------------
-
-def hugo_paper(p):
-    tags = (["selected"] if p["selected"] else []) + p["topics"]
-    fm = ["---", f"title: {q(p['title'])}"]
-    if p["year"]:
-        fm.append(f"date: {p['year']}-01-01")
-    fm += [
-        f"tags: [{', '.join(q(t) for t in tags)}]",
-        f"author: [{', '.join(q(a) for a in split_authors(p['authors']))}]",
-        f"description: {q(p['title'] + '. ' + (p['venue'] or ''))}",
-        f"summary: {q(p['venue'] or 'Working paper')}",
-    ]
-    if p["url"]:
-        fm += ["editPost:", f"    URL: {q(p['url'])}", f"    Text: {q(p['venue'] or 'Paper')}"]
-    fm.append("---")
-
-    year = f" {p['year']}." if p["year"] else ""
-    body = [
-        "",
-        "---",
-        "",
-        "##### Download",
-        "",
-        f"+ [Paper]({p['url']})" if p["url"] else "+ Paper (link coming soon)",
-        "",
-        "---",
-        "",
-        "##### Abstract",
-        "",
-        "<!-- Paste the abstract here. -->",
-        "",
-        "---",
-        "",
-        "##### Citation",
-        "",
-        f"{p['authors']}.{year} \"{p['title']}.\" *{p['venue']}*." if p["venue"] else f"{p['authors']}.{year} \"{p['title']}.\"",
-    ]
-    if p.get("note"):
-        body += ["", f"<small>{p['note']}</small>"]
-    return "\n".join(fm + body) + "\n"
-
-
-def course_year(c):
-    """Year of the most recent semester (for Hugo dates); falls back to 2020."""
-    years = [int(m) for s in c.get("semesters", []) for m in re.findall(r"\b(?:19|20)\d\d\b", s["term"])]
-    return max(years) if years else 2020
-
-
-def hugo_course(c):
-    sems = c.get("semesters", [])
-    role = c.get("role", "")
-    fm = [
-        "---",
-        f"title: {q(c['code'] + ': ' + c['title'])}",
-        f"date: {course_year(c)}-01-01",
-        f"author: {q(ME)}",
-        f"description: {q(c['title'])}",
-        f"summary: {q(' — '.join(x for x in [role, ', '.join(s['term'] for s in sems)] if x))}",
-    ]
-    if c.get("url"):
-        fm += ["editPost:", f"    URL: {q(c['url'])}", '    Text: "Course website"']
-    fm.append("---")
-    body = [""]
-    if role:
-        body += [f"**Role:** {role}", ""]
-    body += ["---", "", "##### Semesters", ""]
-    for o in sems:
-        body.append(f"+ [{o['term']}]({o['url']})" if o.get("url") else f"+ {o['term']}")
-    if c.get("links"):
-        body += ["", "---", "", "##### Lecture videos and materials", ""]
-        body += [f"+ [{l['text']}]({l['url']})" for l in c["links"]]
-    if c.get("note"):
-        body += ["", c["note"]]
-    return "\n".join(fm + body) + "\n"
-
 
 def person_md(s):
     name = f"[{s['name']}]({s['url']})" if s.get("url") else s["name"]
@@ -154,7 +65,7 @@ def group_md(g):
     """Render data/group.yaml. The `to_confirm` list is deliberately not rendered."""
     lines = [g["intro"], "", "## PhD students", ""]
     for s in g.get("phd", []):
-        role = "PhD student" + (f", co-advised with {s['coadvisor']}" if s.get("coadvisor") else "")
+        role = f"co-advised with {s['coadvisor']}" if s.get("coadvisor") else ""
         lines.append(person_md({**s, "role": role}))
     if g.get("undergrad"):
         lines += ["", "## Undergraduate researchers", ""]
@@ -166,48 +77,6 @@ def group_md(g):
 
 def talks_md(talks):
     return "\n".join(f"+ [{t['title']}]({t['url']}), {t['venue']}, {t['date']}" for t in talks) + "\n"
-
-
-def build_hugo(papers, teaching, group, talks, media, outreach, miscellaneous, force):
-    c = HUGO / "content"
-    write(c / "papers" / "_index.md", "\n".join([
-        "---",
-        'title: "Papers"',
-        'description: "Papers and preprints by Gireeja Ranade."',
-        "---",
-        "",
-        "I am thankful for the many wonderful collaborations that have led to these publications. "
-        "[Selected papers](../tags/selected/) are tagged; a more exhaustive list is on "
-        "[Google Scholar](https://scholar.google.com/citations?user=XBjhKdoAAAAJ).",
-        "",
-    ]))
-    n = sum(write(c / "papers" / p["id"] / "index.md", hugo_paper(p), force) for p in papers)
-
-    write(c / "teaching" / "_index.md", "\n".join([
-        "---",
-        'title: "Teaching"',
-        'description: "Courses designed and taught by Gireeja Ranade at UC Berkeley."',
-        "---",
-        "",
-    ]))
-    courses = teaching.get("courses", []) + teaching.get("grad_student", [])
-    m = sum(write(c / "teaching" / x["id"] / "index.md", hugo_course(x), force) for x in courses)
-
-    page = lambda title, desc, body: "\n".join(
-        ["---", f"title: {q(title)}", f"description: {q(desc)}", "hidemeta: true", "---", "", body])
-    write(c / "group.md", page("Group", "Gireeja Ranade's current students and alumni.", group_md(group)))
-    write(c / "talks.md", page("Recorded Talks", "Recorded talks by Gireeja Ranade.", talks_md(talks)))
-    write(c / "media.md", page("Media", "Media mentions, interviews, podcasts, and news.", talks_md(media)))
-    write(c / "outreach.md", page("Outreach", "CalMentors and outreach activities.", outreach))
-    write(c / "miscellaneous.md", page("Miscellaneous", "WITHITS and other activities.", miscellaneous))
-    write(c / "location.md", page("Location", "Office address.", "\n".join([
-        "#### Office address", "",
-        "Gateway 4443  ", "University of California, Berkeley  ", "Berkeley, CA 94720", "",
-        "#### Email", "", "[ranade@eecs.berkeley.edu](mailto:ranade@eecs.berkeley.edu)", "",
-    ])))
-    write(c / "tags" / "_index.md", '---\ntitle: "Tags"\ndescription: "Research topics."\nlayout: "terms"\n---\n')
-    write(c / "archive.md", '---\ntitle: "Archive"\ndescription: "Everything on this site, by year."\nlayout: "archives"\n---\n')
-    print(f"Hugo: {n} new paper pages, {m} new course pages (existing pages left untouched)")
 
 
 # --------------------------------------------------------------------------
@@ -225,19 +94,6 @@ def fr_paper(p):
 
 def fr_list(items):
     return "~~~\n<ul class=\"pub-list\">\n" + "\n".join(fr_paper(p) for p in items) + "\n</ul>\n~~~\n"
-
-
-def topic_order(papers):
-    seen = []
-    for p in papers:
-        for t in p["topics"]:
-            if t not in seen:
-                seen.append(t)
-    return seen
-
-
-def slug(s):
-    return re.sub(r"[^a-z0-9]+", "_", s.lower()).strip("_")
 
 
 # --- Updates (news) -------------------------------------------------------
@@ -302,7 +158,7 @@ def fr_courses(courses):
     return '~~~\n<ul class="pub-list course-list">\n' + "\n".join(fr_course(c) for c in courses) + "\n</ul>\n~~~\n"
 
 
-def build_franklin(papers, teaching, group, talks, media, outreach, miscellaneous, updates):
+def build_franklin(papers, teaching, group, media, outreach, miscellaneous, updates):
     f = FRANKLIN
     updates = sorted(updates or [], key=update_key, reverse=True)  # stable: ties keep file order
     recent, older = updates[:HOME_UPDATES], updates[HOME_UPDATES:]
@@ -344,15 +200,14 @@ Gireeja Ranade is an Associate Teaching Professor in the Electrical Engineering 
         "Back to [recent updates](/).\n",
     ]))
 
-    # --- Papers
+    # --- Papers: one reverse-chronological list (ties keep the order in papers.yaml)
+    by_year = sorted(papers, key=lambda p: p.get("year") or 0, reverse=True)
     parts = ['@def title = "Papers"\n',
              "# Papers\n",
-             "\\toc\n",
+             "<!-- Generated from data/papers.yaml - edit that file, not this one. -->\n",
              "I am thankful for the many wonderful collaborations that have led to the publications here. "
              "A more exhaustive list is at [Google Scholar](https://scholar.google.com/citations?user=XBjhKdoAAAAJ).\n",
-             "## Selected publications and preprints\n", fr_list([p for p in papers if p["selected"]])]
-    for topic in topic_order(papers):
-        parts += [f"## {topic}\n", fr_list([p for p in papers if topic in p["topics"]])]
+             fr_list(by_year)]
     write(f / "papers.md", "\n".join(parts))
 
     # --- Teaching: one flat list of courses, plus "As a graduate student"
@@ -363,9 +218,8 @@ Gireeja Ranade is an Associate Teaching Professor in the Electrical Engineering 
         parts += ["## As a graduate student\n", fr_courses(teaching["grad_student"])]
     write(f / "teaching.md", "\n".join(parts))
 
-    # --- Group, talks, media, outreach
+    # --- Group, media, outreach, miscellaneous
     write(f / "group.md", '@def title = "Group"\n\n# Group\n\n' + group_md(group).replace("\n+ ", "\n* ").replace("## ", "## ", 1))
-    write(f / "talks.md", '@def title = "Talks"\n\n# Recorded Talks\n\n' + talks_md(talks).replace("+ ", "* "))
     media_header = (
         '@def title = "Media"\n\n'
         '# Media\n\n'
@@ -378,27 +232,19 @@ Gireeja Ranade is an Associate Teaching Professor in the Electrical Engineering 
     write(f / "outreach.md", '@def title = "Outreach"\n\n# Outreach\n\n' + outreach)
     write(f / "miscellaneous.md", '@def title = "Miscellaneous"\n\n# Miscellaneous\n\n' + miscellaneous)
     print(f"Franklin: regenerated index ({len(recent)} updates), updates ({len(older)} older), "
-          "papers, teaching, group, talks, media, outreach, miscellaneous")
+          "papers, teaching, group, media, outreach, miscellaneous")
 
 
 def main():
-    ap = argparse.ArgumentParser()
-    ap.add_argument("--force", action="store_true", help="overwrite existing Hugo paper/course pages")
-    args = ap.parse_args()
-
     papers = load("papers.yaml")
     teaching = load("teaching.yaml")
     group = load("group.yaml")
-    talks = load("talks.yaml")
     media = load("media.yaml")
     outreach = (DATA / "outreach.md").read_text(encoding="utf-8")
     miscellaneous = (DATA / "miscellaneous.md").read_text(encoding="utf-8")
     updates = load("updates.yaml") if (DATA / "updates.yaml").exists() else []
 
-    if HUGO.exists():
-        build_hugo(papers, teaching, group, talks, media, outreach, miscellaneous, args.force)
-    if FRANKLIN.exists():
-        build_franklin(papers, teaching, group, talks, media, outreach, miscellaneous, updates)
+    build_franklin(papers, teaching, group, media, outreach, miscellaneous, updates)
 
 
 if __name__ == "__main__":

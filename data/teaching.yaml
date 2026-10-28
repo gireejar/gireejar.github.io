@@ -13,34 +13,29 @@
 #   note              (optional) one short line shown in small print
 #
 # To add a semester: append `- {term: Fall 2027, url: https://...}` under that course's `semesters`.
-# Lines starting with `#` are ignored; unconfirmed semesters are kept commented out until verified.
+# Lines starting with `#` are ignored.
 
 courses:
   - id: cs182
     code: CS C182/282A
     title: Designing, Visualizing and Understanding Deep Neural Networks
     role: Co-instructor with Anant Sahai
-    semesters: []
-      # TODO confirm: - {term: Fall 2025}
-      # TODO confirm: - {term: Fall 2026}
+    semesters:
+      - {term: Fall 2025, url: https://inst.eecs.berkeley.edu/~cs182/fa25/}
+      - {term: Fall 2026, url: https://eecs182.org/}
 
   - id: eecs127
-    code: EECS 127/227A
+    code: EECS127/227A
     title: Optimization Models in Engineering
     role: Instructor
     semesters:
       - {term: Spring 2019}
       - {term: Spring 2020, url: https://inst.eecs.berkeley.edu/~ee127/sp20/}
-      # TODO confirm: - {term: Fall 2022}
-      # TODO confirm: - {term: Spring 2023}
-      # TODO confirm: - {term: Fall 2023}
-      # TODO confirm: - {term: Spring 2024}
+      - {term: Fall 2022}
+      - {term: Spring 2024}
       - {term: Spring 2026, url: https://eecs127.github.io/}
     links:
-      - {text: Lecture recordings (Spring 2026), url: "https://www.youtube.com/playlist?list=PLnocShPlK-FvYcRd6us0okRTYKZtqe4B9"}
-      # TODO confirm these were your offerings before un-commenting:
-      # - {text: Lecture recordings (Spring 2024), url: "https://www.youtube.com/playlist?list=PLnocShPlK-FsQ-Sflqs4tbX-dKhYZSD3g"}
-      # - {text: Lecture recordings (Fall 2022), url: "https://www.youtube.com/playlist?list=PLnocShPlK-Fsj9puVGWJ1byL-WeKW1CMb"}
+      - {text: Lecture recordings (Fall 2022), url: "https://www.youtube.com/playlist?list=PLnocShPlK-Fsj9puVGWJ1byL-WeKW1CMb"}
       - {text: Course reader, url: "https://eecs127.github.io/assets/notes/eecs127_reader.pdf"}
 
   - id: eecs16a

@@ -1,6 +1,14 @@
-# Recorded talks, extracted from the original website (oldest first there; newest first here).
-- {title: "An informational perspective on uncertainty in control", venue: "Online seminar on control and information", date: "May 2021", url: "https://www.youtube.com/watch?v=SaVAJNgEbhk"}
-- {title: "Many recorded lectures for EECS 16A at UC Berkeley", venue: "YouTube", date: "2018–2019", url: "https://www.youtube.com/channel/UCEXfTs0jS6D_0nwf1nAeF8A/search?query=16a"}
-- {title: "Fake News, Browser Logs and the 2016 US Presidential Election", venue: "WICSE 40th Reunion", date: "July 2018", url: "https://www.youtube.com/watch?v=Dvj00o0cjTo"}
-- {title: "An informational perspective on uncertainty in control", venue: "Simons Institute Real-Time Decision Making, Berkeley", date: "May 2018", url: "https://simons.berkeley.edu/talks/gireeja-ranade-5-1-18"}
-- {title: "Hacking Politics Workshop", venue: "SF MOMA and UC Berkeley", date: "January 2018", url: "https://youtu.be/QUn5d5MbJTM?t=2501"}
+# Recorded talks and course lecture videos (newest first within each section).
+
+talks:
+  - {title: "An informational perspective on uncertainty in control", venue: "Online seminar on control and information", date: "May 2021", url: "https://www.youtube.com/watch?v=SaVAJNgEbhk"}
+  - {title: "Fake News, Browser Logs and the 2016 US Presidential Election", venue: "WICSE 40th Reunion", date: "July 2018", url: "https://www.youtube.com/watch?v=Dvj00o0cjTo"}
+  - {title: "An informational perspective on uncertainty in control", venue: "Simons Institute Real-Time Decision Making, Berkeley", date: "May 2018", url: "https://simons.berkeley.edu/talks/gireeja-ranade-5-1-18"}
+  - {title: "Hacking Politics Workshop", venue: "SF MOMA and UC Berkeley", date: "January 2018", url: "https://youtu.be/QUn5d5MbJTM?t=2501"}
+
+courses:
+  # Note: Spring 2026 (PLnocShPlK-FvYcRd6us0okRTYKZtqe4B9) and Spring 2024 (PLnocShPlK-FsQ-Sflqs4tbX-dKhYZSD3g)
+  # playlists on @IesgDepartmental currently have their videos set to private; Fall 2022 has all 29 unlisted videos live.
+  - {title: "EECS 127/227A: Optimization Models in Engineering", venue: "UC Berkeley", date: "Fall 2022", url: "https://www.youtube.com/playlist?list=PLnocShPlK-Fsj9puVGWJ1byL-WeKW1CMb"}
+  - {title: "EECS 16A: Designing Information Devices and Systems I", venue: "UC Berkeley", date: "2018–2019", url: "https://www.youtube.com/channel/UCEXfTs0jS6D_0nwf1nAeF8A/search?query=16a"}
+  - {title: "EECS 16A: Designing Information Devices and Systems I (Pilot offering)", venue: "UC Berkeley", date: "Spring 2015", url: "https://www.youtube.com/playlist?list=PLkFD6_40KJIzqJKYzqn5ALZLad3LiNyOK"}

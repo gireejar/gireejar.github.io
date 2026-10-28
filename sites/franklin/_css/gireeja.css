@@ -77,6 +77,17 @@ a:hover,
   margin: 0 0 1rem;
 }
 
+/* Compact bullet lists: Franklin wraps each bullet's text in a <p>, whose
+   bottom margin made lists (e.g. Group, Media) look double-spaced. */
+.franklin-content li > p:only-child {
+  margin: 0;
+}
+
+.franklin-content ul > li {
+  margin-top: 0.2rem;
+  margin-bottom: 0;
+}
+
 /* Heading scale: same font family, clean medium weight like the original site */
 .franklin-content h1,
 .franklin-content h2,

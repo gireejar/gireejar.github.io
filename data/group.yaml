@@ -16,25 +16,31 @@ phd:
 # Undergraduate co-authors on 2025-2026 group papers (LeanTutor / LeanSide / formally verified
 # co-reasoning with Manooshree and Nora; in-context recall with Sultan).
 undergrad:
-  - {name: Rayna Bhattacharyya, project: "Verified AI tutoring (LeanTutor, LeanSide)"}
-  - {name: Krishiv Kothari, project: "Formally verified co-reasoning (LeanSide)"}
-  - {name: Thomas Lu, project: "Verified AI tutoring (LeanTutor, LeanSide)"}
-  - {name: Arnav Mehta, project: "Verified AI tutoring (LeanTutor, LeanSide)"}
-  - {name: Niels Voss, project: "Verified AI tutoring (LeanTutor, LeanSide)"}
-  - {name: Dylan Davis, project: "Mechanisms of in-context recall"}
-  - {name: Dhruv Gautam, project: "Mechanisms of in-context recall"}
-  - {name: Wentinn Liao, project: "Mechanisms of in-context recall"}
+  - {name: Krishiv Kothari}
+  - {name: Peter Donovan}
+  - {name: Ganesh Sankar}
+  - {name: Aditya Chandrasekhar}
+  - {name: Harrison Katz}
 
 alumni:
   # Graduate students
-  - {name: Vignesh Subramanian, url: "https://people.eecs.berkeley.edu/~vignesh.subramanian/", role: "PhD, UC Berkeley"}
+  - {name: Vignesh Subramanian, url: "https://people.eecs.berkeley.edu/~vignesh.subramanian/", role: "PhD, UC Berkeley", note: "Now: Plus"}
   - {name: Vasuki Narasimha Swamy, url: "https://people.eecs.berkeley.edu/~vasuki/", role: "PhD, UC Berkeley", note: "Now: Intel Research. Marconi Scholar"}
-  - {name: Moses Won, role: "MS, UC Berkeley"}
-  - {name: Ana Tudor, url: "https://www.linkedin.com/in/ana-tudor", role: "MS 2021, UC Berkeley"}
+  - {name: Arnav Mehta, role: "MS 2026, UC Berkeley", note: "Now: Pramaana Labs"}
+  - {name: Kanav Mittal, role: "MS 2026, UC Berkeley", note: "Now: NVIDIA"}
+  - {name: Moses Won, url: "https://www.usfca.edu/faculty/moses-won", role: "MS 2022, UC Berkeley", note: "Now: Faculty at the University of San Francisco"}
+  - {name: Ana Tudor, url: "https://www.linkedin.com/in/ana-tudor", role: "MS 2021, UC Berkeley", note: "Now: PhD student in CS at McGill"}
   - {name: Gloria Tumushabe, url: "https://www.linkedin.com/in/gloria-tumushabe", role: "MS 2020, UC Berkeley", note: "Now: Salesforce"}
   # Undergraduates
+  - {name: Rayna Bhattacharyya, note: "Now: MS student at CMU"}
+  - {name: Thomas Lu, note: "Now: PhD student at the University of Michigan"}
+  - {name: Niels Voss, note: "Now: Axiom Math"}
+  - {name: Dylan Davis}
+  - {name: Dhruv Gautam}
+  - {name: Wentinn Liao}
+  - {name: Phoenix Wilson}
   - {name: Christopher Archer, role: "UC Berkeley"}
-  - {name: Bridget Agyare, url: "https://www.linkedin.com/in/bridgetagyare119", role: "Undergraduate 2023, UC Berkeley"}
+  - {name: Bridget Agyare, url: "https://www.linkedin.com/in/bridgetagyare119", role: "Undergraduate 2023, UC Berkeley", note: "Now: PhD student in CS at UIUC"}
   - {name: Alicia Matsumoto, url: "https://www.linkedin.com/in/aliciamatsumoto", role: "Undergraduate 2022, UC Berkeley"}
   - name: Rahul Arya
     url: https://www.linkedin.com/in/rahul-arya
@@ -69,7 +75,6 @@ to_confirm:
   - Victoria Phelps
   - Abigail O'Neill
   - Gaurav Tyagi
-  - Kanav Mittal
   - Hanna Schlegel
   - Joaquín Jordán
   - Xavier Yin
@@ -78,6 +83,5 @@ to_confirm:
   - Anirudh Chaudhary
   - Naveen Nathan
   # Other recent co-authors
-  - Peter Donovan      # LeanSide / co-reasoning (2026); student or staff?
   - Olivia Hsu         # Inclusive study groups (SIGCSE 2023)
   - Nithish Kumar      # Diversity in SBM dynamics (Allerton 2023), with Simina Brânzei
