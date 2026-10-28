@@ -1,5 +1,5 @@
 # Builds the Franklin site in sites/franklin and publishes it to GitHub Pages
-# (https://gireejaranade.github.io) on every push to `main`.
+# (https://gireejar.github.io) on every push to `main`.
 #
 # One-time setup on GitHub: Settings -> Pages -> Build and deployment ->
 # Source: "GitHub Actions".
