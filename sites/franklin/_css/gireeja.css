@@ -200,6 +200,25 @@ a:hover,
   font-size: 17px !important;
 }
 
+/* Narrow mode (bar on top): the template gives the title a fixed 150px box,
+   which clips the name. Let the title take the space it needs and keep the
+   MENU toggle on the right. */
+@media (max-width: 49.99rem) {
+  .side-bar .header {
+    width: auto;
+    flex: 1 1 auto;
+    min-width: 0;
+  }
+
+  .show-menu {
+    width: auto;
+    flex: 0 0 auto;
+    padding-left: 1rem;
+    padding-right: 1.25rem;
+    background-color: #f5f6fa; /* same gray as the rest of the top bar */
+  }
+}
+
 .menu-list-link.active {
   color: var(--purple);
   font-weight: 500;
