@@ -2,6 +2,7 @@
 
 # Group
 
+@@compact
 I've been very lucky to work with and learn from an amazing group of students.
 
 ## PhD students
@@ -51,3 +52,4 @@ I've been very lucky to work with and learn from an amazing group of students.
 * [Sahaana Suri](https://stanford.edu/~sahaana/) (UC Berkeley Undergrad). PhD at Stanford. Finalist, CRA Undergraduate Research Competition (2015)
 * Alexander Spangher (MSR Intern). PhD at USC
 * Brian Axelrod (MSR Intern). PhD at Stanford
+@@

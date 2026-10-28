@@ -219,7 +219,8 @@ Gireeja Ranade is an Associate Teaching Professor in the Electrical Engineering 
     write(f / "teaching.md", "\n".join(parts))
 
     # --- Group, media, outreach, miscellaneous
-    write(f / "group.md", '@def title = "Group"\n\n# Group\n\n' + group_md(group).replace("\n+ ", "\n* ").replace("## ", "## ", 1))
+    write(f / "group.md", '@def title = "Group"\n\n# Group\n\n@@compact\n'
+          + group_md(group).replace("\n+ ", "\n* ") + "@@\n")
     media_header = (
         '@def title = "Media"\n\n'
         '# Media\n\n'
