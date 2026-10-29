@@ -7,11 +7,11 @@
 intro: I've been very lucky to work with and learn from an amazing group of students.
 
 phd:
-  - {name: Manooshree Patel, coadvisor: Dor Abrahamson}
-  - {name: Nora Chenjun Guo, coadvisor: Björn Hartmann}
-  - {name: Ebonye Smith, coadvisor: Claire Tomlin}
-  - {name: Sultan Daniels, coadvisor: Anant Sahai}
-  - {name: Eric Xu}
+  - {name: Manooshree Patel, url: "https://manooshree.github.io/", coadvisor: Dor Abrahamson}
+  - {name: Nora Chenjun Guo, url: "https://design.berkeley.edu/profiles/nora-chenjun-guo", coadvisor: Björn Hartmann}
+  - {name: Ebonye Smith, url: "https://www.linkedin.com/in/ebonyesmith", coadvisor: Claire Tomlin}
+  - {name: Sultan Daniels, url: "https://sultandaniels.github.io/", coadvisor: Anant Sahai}
+  - {name: Eric Xu, url: "https://scholar.google.com/citations?user=Rj3rOywAAAAJ"}
 
 # Undergraduate co-authors on 2025-2026 group papers (LeanTutor / LeanSide / formally verified
 # co-reasoning with Manooshree and Nora; in-context recall with Sultan).
@@ -26,8 +26,8 @@ alumni:
   # Graduate students
   - {name: Vignesh Subramanian, url: "https://people.eecs.berkeley.edu/~vignesh.subramanian/", role: "PhD, UC Berkeley", note: "Now: Plus"}
   - {name: Vasuki Narasimha Swamy, url: "https://people.eecs.berkeley.edu/~vasuki/", role: "PhD, UC Berkeley", note: "Now: Intel Research. Marconi Scholar"}
-  - {name: Arnav Mehta, role: "MS 2026, UC Berkeley", note: "Now: Pramaana Labs"}
-  - {name: Kanav Mittal, role: "MS 2026, UC Berkeley", note: "Now: NVIDIA"}
+  - {name: Arnav Mehta, url: "https://www.linkedin.com/in/arnav-mehta-b92420219/", role: "MS 2026, UC Berkeley", note: "Now: Pramaana Labs"}
+  - {name: Kanav Mittal, url: "https://kanavmittal314.github.io/", role: "MS 2026, UC Berkeley", note: "Now: NVIDIA"}
   - {name: Moses Won, url: "https://www.usfca.edu/faculty/moses-won", role: "MS 2022, UC Berkeley", note: "Now: Faculty at the University of San Francisco"}
   - {name: Ana Tudor, url: "https://www.linkedin.com/in/ana-tudor", role: "MS 2021, UC Berkeley", note: "Now: PhD student in CS at McGill"}
   - {name: Gloria Tumushabe, url: "https://www.linkedin.com/in/gloria-tumushabe", role: "MS 2020, UC Berkeley", note: "Now: Salesforce"}

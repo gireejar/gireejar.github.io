@@ -7,11 +7,11 @@ I've been very lucky to work with and learn from an amazing group of students.
 
 ## PhD students
 
-* Manooshree Patel (co-advised with Dor Abrahamson)
-* Nora Chenjun Guo (co-advised with Björn Hartmann)
-* Ebonye Smith (co-advised with Claire Tomlin)
-* Sultan Daniels (co-advised with Anant Sahai)
-* Eric Xu
+* [Manooshree Patel](https://manooshree.github.io/) (co-advised with Dor Abrahamson)
+* [Nora Chenjun Guo](https://design.berkeley.edu/profiles/nora-chenjun-guo) (co-advised with Björn Hartmann)
+* [Ebonye Smith](https://www.linkedin.com/in/ebonyesmith) (co-advised with Claire Tomlin)
+* [Sultan Daniels](https://sultandaniels.github.io/) (co-advised with Anant Sahai)
+* [Eric Xu](https://scholar.google.com/citations?user=Rj3rOywAAAAJ)
 
 ## Undergraduate researchers
 
@@ -25,8 +25,8 @@ I've been very lucky to work with and learn from an amazing group of students.
 
 * [Vignesh Subramanian](https://people.eecs.berkeley.edu/~vignesh.subramanian/) (PhD, UC Berkeley). Now: Plus
 * [Vasuki Narasimha Swamy](https://people.eecs.berkeley.edu/~vasuki/) (PhD, UC Berkeley). Now: Intel Research. Marconi Scholar
-* Arnav Mehta (MS 2026, UC Berkeley). Now: Pramaana Labs
-* Kanav Mittal (MS 2026, UC Berkeley). Now: NVIDIA
+* [Arnav Mehta](https://www.linkedin.com/in/arnav-mehta-b92420219/) (MS 2026, UC Berkeley). Now: Pramaana Labs
+* [Kanav Mittal](https://kanavmittal314.github.io/) (MS 2026, UC Berkeley). Now: NVIDIA
 * [Moses Won](https://www.usfca.edu/faculty/moses-won) (MS 2022, UC Berkeley). Now: Faculty at the University of San Francisco
 * [Ana Tudor](https://www.linkedin.com/in/ana-tudor) (MS 2021, UC Berkeley). Now: PhD student in CS at McGill
 * [Gloria Tumushabe](https://www.linkedin.com/in/gloria-tumushabe) (MS 2020, UC Berkeley). Now: Salesforce
