@@ -29,8 +29,8 @@ Gireeja Ranade is an Associate Teaching Professor in the Electrical Engineering 
 <li><span class="update-date">Oct 2026</span><span class="update-text">Gireeja spoke at the UC Berkeley Emeriti Association.</span></li>
 <li><span class="update-date">Oct 2026</span><span class="update-text">Two papers at <a href="https://2026.emnlp.org/">EMNLP 2026</a> in Budapest: <a href="https://aclanthology.org/2026.emnlp-main.2488.pdf"><em>ParaStudent: Closing the Sim2Real Gap in User Simulators for AI Tutor Evaluation</em></a> and <a href="https://aclanthology.org/2026.findings-emnlp.977.pdf"><em>Formally Verified AI Co-Reasoning: An Education Case Study</em></a>.</span></li>
 <li><span class="update-date">Sep 2026</span><span class="update-text">Gireeja joined the panel for the <a href="https://www.youtube.com/watch?v=7pukV1WtkO0">1st Relatorium Dialogue on Mathematics and AI</a>, alongside Rem Faraone, Nestor Guillen, Max Lieblich and David Spivak.</span></li>
+<li><span class="update-date">Sep 2026</span><span class="update-text">LeanTutor was presented at the Renaissance Philanthropy <a href="https://renaissancephilanthropy.org/initiatives/ai-for-math-fund/">AI for Math Fund</a> Workshop 2026.</span></li>
 <li><span class="update-date">Aug 2026</span><span class="update-text">New preprint with Anant Sahai: <a href="https://arxiv.org/abs/2608.01032"><em>The Fourth Quadrant: A Stylized View of Benign Misfitting</em></a>.</span></li>
-<li><span class="update-date">Jul 2026</span><span class="update-text">Ebonye Smith's paper on in-context control was accepted to the <a href="https://cdc2026.ieeecss.org/">IEEE Conference on Decision and Control (CDC 2026)</a> in Honolulu.</span></li>
 </ul>
 ~~~
 

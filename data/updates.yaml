@@ -32,7 +32,6 @@
 - {date: 2026-03-09, text: "Nora Guo presented [*Bridging the Gap to Autoformalize Free-Form Human Reasoning*](https://kilthub.cmu.edu/ndownloader/files/63381051) at [PLATEAU 2026](https://plateau-workshop.org/) at Carnegie Mellon University."}
 - {date: 2026-01, label: "Spring 2026", text: "[LeanTutor](https://leantutor.org/) was deployed in EECS 127/227A at UC Berkeley, giving students verified feedback on their proofs."}
 - {date: 2026-01-20, text: "Manooshree Patel presented the first LeanTutor paper, [*LeanTutor: Towards a Verified AI Mathematical Proof Tutor*](https://ojs.aaai.org/index.php/AAAI/article/download/41514/45475), at EAAI-26 (with AAAI-26) in Singapore."}
-# TODO: replace `2026` with the actual month (YYYY-MM) and add an event link if there is one.
-- {date: 2026, text: "LeanTutor was presented at the Renaissance Philanthropy [AI for Math Fund](https://renaissancephilanthropy.org/initiatives/ai-for-math-fund/) Workshop 2026."}
+- {date: 2026-09, text: "LeanTutor was presented at the Renaissance Philanthropy [AI for Math Fund](https://renaissancephilanthropy.org/initiatives/ai-for-math-fund/) Workshop 2026."}
 - {date: 2025-09, text: "LeanTutor received an [AI for Math Fund grant](https://cdss.berkeley.edu/news/uc-berkeley-receives-ai-math-fund-grants-vellum-and-leantutor-projects) from Renaissance Philanthropy and XTX Markets."}
 

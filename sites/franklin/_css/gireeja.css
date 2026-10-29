@@ -1,11 +1,16 @@
 /* Site-specific overrides on top of the just-the-docs Franklin template.
    Keeps the typography and purple/plum palette of the original website
-   (https://people.eecs.berkeley.edu/~gireeja/). */
+   (https://people.eecs.berkeley.edu/~gireeja/), with maroon accents:
+   purple = links and the name; maroon = headings, dates, venues and details. */
 
 :root {
   --purple: #7300e6;       /* primary accent from the original site */
   --purple-light: #f3ebfd; /* light tint for backgrounds */
   --plum: #993366;         /* secondary accent from the original site */
+  --maroon: #7b1e3a;       /* headings, dates, venues, current-page marker */
+  --maroon-light: #f6e8ed; /* light maroon tint for list rules and the photo ring */
+  --warm-bg: #faf5f7;      /* sidebar / top bar background */
+  --warm-rule: #f0e2e8;    /* sidebar dividers */
   --font-main: avenir, 'avenirnext', helvetica, arial, sans-serif;
   --sidebar-width: 195px;
 }
@@ -107,12 +112,13 @@ a:hover,
   margin: 1.25rem 0 0.4rem;
 }
 
-/* Heading scale: same font family, clean medium weight like the original site */
+/* Heading scale: same font family, clean medium weight like the original site.
+   Headings are maroon; purple is reserved for links and the name. */
 .franklin-content h1,
 .franklin-content h2,
 .franklin-content h3,
 .franklin-content h4 {
-  color: var(--purple);
+  color: var(--maroon);
   font-weight: 500;
 }
 
@@ -126,7 +132,9 @@ a:hover,
   line-height: 1.3;
   margin: 2rem 0 0.75rem;
   padding-bottom: 0.3rem;
-  border-bottom: 1px solid #eeebee;
+  /* purple -> maroon rule that fades out */
+  border-bottom: 2px solid transparent;
+  border-image: linear-gradient(90deg, var(--purple), var(--maroon) 45%, var(--warm-rule) 75%) 1;
 }
 
 .franklin-content h3 {
@@ -136,6 +144,41 @@ a:hover,
 
 .franklin-content h3 a {
   color: var(--purple);
+}
+
+/* Franklin wraps every heading in a self-link; keep it the heading color. */
+.franklin-content h1 a.header-anchor,
+.franklin-content h2 a.header-anchor,
+.franklin-content h3 a.header-anchor,
+.franklin-content h4 a.header-anchor {
+  color: inherit;
+}
+
+/* Thin purple -> maroon bar across the top of every page */
+.page-wrap::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: linear-gradient(90deg, var(--purple), var(--maroon));
+  z-index: 300;
+}
+
+/* Warm sidebar (also the top bar on phones) */
+.side-bar {
+  background-color: var(--warm-bg);
+}
+
+.side-bar .header {
+  border-bottom-color: var(--warm-rule);
+}
+
+@media (min-width: 50rem) {
+  .side-bar {
+    border-right: 1px solid var(--warm-rule);
+  }
 }
 
 /* Narrow left sidebar and centered main content column */
@@ -215,18 +258,26 @@ a:hover,
     flex: 0 0 auto;
     padding-left: 1rem;
     padding-right: 1.25rem;
-    background-color: #f5f6fa; /* same gray as the rest of the top bar */
+    background-color: var(--warm-bg); /* same as the rest of the top bar */
   }
 }
 
+.menu-list-link:hover {
+  color: var(--maroon);
+}
+
+/* Current page: maroon text with a maroon bar on its left */
 .menu-list-link.active {
-  color: var(--purple);
+  color: var(--maroon);
   font-weight: 500;
+  border-left: 3px solid var(--maroon);
+  padding-left: 0.55rem;
+  margin-left: calc(-0.55rem - 3px);
 }
 
 .menu-list-item.active::before,
 .menu-list-link.active::before {
-  color: var(--purple);
+  color: var(--maroon);
 }
 
 .side-bar .footer {
@@ -260,13 +311,15 @@ a:hover,
   max-width: 40%;
   padding-left: 0;
   border-radius: 8px;
-  box-shadow: 0 2px 10px rgba(115, 0, 230, 0.12);
+  /* white gap, thin maroon-tinted ring, soft shadow */
+  box-shadow: 0 0 0 3px #fff, 0 0 0 5px var(--maroon-light), 0 4px 14px rgba(123, 30, 58, 0.18);
   flex-shrink: 0;
 }
 
 .profile-info { min-width: 0; }
 
 .franklin-content .profile-name {
+  color: var(--purple);
   margin: 0 0 0.35rem !important;
   font-size: 28px;
   font-weight: 400;
@@ -301,14 +354,14 @@ a:hover,
   margin: 0;
   font-size: 1rem;
   line-height: 1.45;
-  border-left: 3px solid var(--purple-light);
+  border-left: 3px solid var(--maroon-light);
   border-bottom: 1px dashed #bbbbbb;
   transition: border-color 150ms ease, background-color 150ms ease;
 }
 
 .franklin-content li.pub:hover {
-  border-left-color: var(--purple);
-  background-color: #fbf8ff;
+  border-left-color: var(--maroon);
+  background-color: #fcf7f9;
 }
 
 .pub-title {
@@ -323,7 +376,7 @@ a:hover,
 }
 
 .pub-venue {
-  color: var(--plum);
+  color: var(--maroon);
   font-size: 1rem;
 }
 
@@ -342,7 +395,7 @@ a:hover,
 }
 
 .course-terms {
-  color: var(--plum);
+  color: var(--maroon);
 }
 
 .course-links {
@@ -364,7 +417,7 @@ a:hover,
   margin: 0;
   font-size: 1rem;
   line-height: 1.45;
-  border-left: 3px solid var(--purple-light);
+  border-left: 3px solid var(--maroon-light);
   transition: border-color 150ms ease, background-color 150ms ease;
 }
 
@@ -373,13 +426,13 @@ a:hover,
 }
 
 .franklin-content ul.updates > li:hover {
-  border-left-color: var(--purple);
-  background-color: #fbf8ff;
+  border-left-color: var(--maroon);
+  background-color: #fcf7f9;
 }
 
 .update-date {
   flex: 0 0 6.75rem;
-  color: var(--plum);
+  color: var(--maroon);
   white-space: nowrap;
 }
 
