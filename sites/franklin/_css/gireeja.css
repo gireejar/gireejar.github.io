@@ -255,7 +255,7 @@ a:hover,
 /* Needs .franklin-content in the selector to beat the template's
    `.franklin-content img { width: 70%; padding-left: 10% }`. */
 .franklin-content img.profile-photo {
-  width: 160px;
+  width: 210px;
   height: auto;
   max-width: 40%;
   padding-left: 0;
